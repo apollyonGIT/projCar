@@ -53,11 +53,12 @@ namespace World.Enemys
         void IEnemyView.notify_on_tick1()
         {
             transform.localPosition = calc_pos();
-            transform.localRotation = owner.view_rotation;
             transform.localScale = Vector3.one * owner.battle_ctx.enemy_scale_factor;
 
             if (anim != null)
             {
+                transform.localRotation = owner.view_rotation;
+
                 anim.skeleton.ScaleX = owner.view_scaleX;
                 anim.skeleton.ScaleY = owner.view_scaleY;
 
@@ -74,6 +75,12 @@ namespace World.Enemys
                 }
 
                 anim.Update(Config.PHYSICS_TICK_DELTA_TIME);
+            }
+            else
+            {
+                var _localScale = transform.localScale;
+                _localScale.x *= owner.view_pic_scaleX;
+                transform.localScale = _localScale;
             }
 
             tick1_outter?.Invoke();

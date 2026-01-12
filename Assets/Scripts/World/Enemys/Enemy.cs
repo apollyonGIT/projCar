@@ -61,6 +61,8 @@ namespace World.Enemys
         public float view_scaleY => calc_view_scaleY();
         public bool is_ban_scaleY_slip;
 
+        public float view_pic_scaleX => calc_view_scaleY();
+
         public Vector2 velocity;
         public Vector2 acc_attacher;
 
