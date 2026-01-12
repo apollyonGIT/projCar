@@ -63,6 +63,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 726552829175706}
+  - component: {fileID: 2555817846836365067}
   m_Layer: 0
   m_Name: basicMonster_animator
   m_TagString: Untagged
@@ -87,6 +88,22 @@ Transform:
   - {fileID: 62002367015369342}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2555817846836365067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4090085029481898366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e91ffe66d81ba419b412a26fc57290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  pre_aim: {fileID: 7284253001650510707}
+  aim: {fileID: 8012455589907813583}
+  outrange_aim: {fileID: 8986155149754256970}
 --- !u!1 &4173286239869079500
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0415d09372d574142af21e4d33fc0e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  view: {fileID: 0}
+  view: {fileID: 2555817846836365067}
 --- !u!50 &6120411641738776977
 Rigidbody2D:
   serializedVersion: 4

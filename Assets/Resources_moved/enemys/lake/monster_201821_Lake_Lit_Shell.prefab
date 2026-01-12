@@ -57,6 +57,10 @@ PrefabInstance:
       value: monster_201821_Lake_Lit_Shell
       objectReference: {fileID: 0}
     - target: {fileID: 5214363137991326406, guid: 331069fffb4787e48807631d11d27d69, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214363137991326406, guid: 331069fffb4787e48807631d11d27d69, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1367867180, guid: 4acacdc721306e44884521c7f0999e4b, type: 3}

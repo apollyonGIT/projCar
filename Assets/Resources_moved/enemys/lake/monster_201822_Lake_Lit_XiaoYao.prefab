@@ -48,14 +48,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 250974753177125448, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 22100000, guid: 01866883b479cf24fac90985c1113faa, type: 2}
-    - target: {fileID: 674893436073104644, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-      propertyPath: view
-      value: 
-      objectReference: {fileID: 8519538730497207318}
     - target: {fileID: 4090085029481898366, guid: 331069fffb4787e48807631d11d27d69, type: 3}
       propertyPath: m_Name
       value: monster_201822_Lake_Lit_XiaoYao
@@ -63,44 +55,5 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4090085029481898366, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8519538730497207318}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 331069fffb4787e48807631d11d27d69, type: 3}
---- !u!212 &741316724335252626 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8986155149754256970, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-  m_PrefabInstance: {fileID: 8573890369776343768}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1435045603361604011 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7284253001650510707, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-  m_PrefabInstance: {fileID: 8573890369776343768}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1859254600446840343 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8012455589907813583, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-  m_PrefabInstance: {fileID: 8573890369776343768}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5638072939266980774 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4090085029481898366, guid: 331069fffb4787e48807631d11d27d69, type: 3}
-  m_PrefabInstance: {fileID: 8573890369776343768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8519538730497207318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5638072939266980774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79e91ffe66d81ba419b412a26fc57290, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  pre_aim: {fileID: 1435045603361604011}
-  aim: {fileID: 1859254600446840343}
-  outrange_aim: {fileID: 741316724335252626}
