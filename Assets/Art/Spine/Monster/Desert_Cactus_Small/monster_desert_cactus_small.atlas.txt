@@ -1,0 +1,8 @@
+monster_desert_cactus_small.png
+size:128,128
+filter:Linear,Linear
+pma:true
+monster_desert_cactus_a_main
+bounds:2,2,44,56
+monster_desert_cactus_a_needle
+bounds:2,60,76,64

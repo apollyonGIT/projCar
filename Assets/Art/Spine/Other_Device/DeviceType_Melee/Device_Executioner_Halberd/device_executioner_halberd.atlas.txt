@@ -1,0 +1,7 @@
+device_executioner_halberd.png
+size:256,256
+filter:Linear,Linear
+pma:true
+fuyue
+bounds:2,74,136,64
+offsets:1,1,138,66

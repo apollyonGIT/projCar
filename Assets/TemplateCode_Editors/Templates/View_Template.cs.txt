@@ -1,0 +1,29 @@
+﻿using Foundations.MVVM;
+using UnityEngine;
+
+namespace #namespace#
+{
+    public class #cell#View : MonoBehaviour, I#cell#View
+    {
+        #cell# owner;
+
+        //==================================================================================================
+
+        void IModelView<#cell#>.attach(#cell# owner)
+        {
+            this.owner = owner;
+        }
+
+
+        void IModelView<#cell#>.detach(#cell# owner)
+        {
+            this.owner = null;
+        }
+
+
+        void I#cell#View.notify_on_tick1()
+        {
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+monster_treetop_spitbird_blue.png
+size:256,256
+filter:Linear,Linear
+pma:true
+images/monster_treetop_spitbird_body
+bounds:2,2,48,44
+images/monster_treetop_spitbird_head
+bounds:2,114,92,112
+images/monster_treetop_spitbird_tail
+bounds:52,56,56,8
+rotate:90
+images/monster_treetop_spitbird_wing_1
+bounds:96,166,40,60
+images/monster_treetop_spitbird_wing_2
+bounds:2,48,48,64

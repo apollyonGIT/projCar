@@ -1,0 +1,9 @@
+spiked_shield.png
+size:86,88
+filter:Linear,Linear
+pma:true
+light
+bounds:2,24,52,62
+offsets:1,1,54,64
+spiked_shield
+bounds:56,2,28,84

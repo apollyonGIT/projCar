@@ -1,0 +1,422 @@
+{
+    "name": "Control_1",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "6217da5f-2eb7-40aa-9dd1-baf2e8660619",
+            "actions": [
+                {
+                    "name": "SelectDevice_1",
+                    "type": "Button",
+                    "id": "b4a4d034-e08c-4717-a199-679c9f4a8c0e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelectDevice_2",
+                    "type": "Button",
+                    "id": "fb7a5e56-9a44-41e5-80a8-2eef1e78573f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelectDevice_3",
+                    "type": "Button",
+                    "id": "49923390-392e-48fe-bd26-cd4b3a4b0d55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelectDevice_4",
+                    "type": "Button",
+                    "id": "5a9fac5d-4b4e-4805-8e1e-773724ce5005",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelectDevice_5",
+                    "type": "Button",
+                    "id": "47ca39c4-4583-4cc3-94ce-ab3f419eb528",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightClick",
+                    "type": "Button",
+                    "id": "4ef82538-c8d0-400b-94ff-ea6f4f254200",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=1.401298E-45)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftClick",
+                    "type": "Button",
+                    "id": "2a1d6209-5a45-4981-9d81-d2325e7fca35",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap(duration=1.401298E-45,pressPoint=1.401298E-45),Hold(duration=1.401298E-45,pressPoint=1.401298E-45)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "a6c49c65-0c81-4076-8b21-1960d99290ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Del",
+                    "type": "Button",
+                    "id": "50935d2f-9ab5-47c6-bbc8-3d0c3112e793",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PullUp",
+                    "type": "Button",
+                    "id": "3b885522-ce36-4b1e-b939-12c0d19e6ed5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap(duration=1.401298E-45,pressPoint=1.401298E-45),Hold(duration=1.401298E-45,pressPoint=1.401298E-45)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PullDown",
+                    "type": "Button",
+                    "id": "77996616-8e47-441d-ad68-9df36ffeab28",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap(duration=1.401298E-45,pressPoint=1.401298E-45),Hold(duration=1.401298E-45,pressPoint=1.401298E-45)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Brake",
+                    "type": "Button",
+                    "id": "41b07fe5-1d50-46fd-8975-09a3b9254c7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "6ecf78aa-1475-443e-b034-986225e03c2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PushCar",
+                    "type": "Button",
+                    "id": "ef381eec-6204-4e8b-aada-eac017fe5ed0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AltPress",
+                    "type": "Button",
+                    "id": "ab7f969b-d492-4812-bfee-d7e7a99f49c3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AltRelease",
+                    "type": "Button",
+                    "id": "5b4dabea-5910-4164-88bd-4532c3077d42",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "592f2b1c-0e94-46a8-9317-98644d0cf52c",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDevice_1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "683f528e-81c3-4710-b676-a1e091a1fd2a",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDevice_2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f8d2f8a-90d2-4ccb-a4a7-de10b940c62d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDevice_3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b986f1b-db6a-44de-a5e9-71abf4af6f2b",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDevice_4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c93cb74-1524-481c-a7ac-5a5b2ecff051",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bee15867-b59a-4e45-84fc-b3e51a811d3e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cba8447-cca6-4cc9-bd4b-f81aa68ff2e8",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0ef05c3-1c48-4d67-b9ff-0e97e3ab2cce",
+                    "path": "<Keyboard>/backspace",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Del",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44e5ebb6-3ad5-40cf-901c-961bd45d9d47",
+                    "path": "<Keyboard>/numpad7",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PullUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4e9e846a-1046-4b4f-839e-3907a3d97163",
+                    "path": "<Keyboard>/numpad8",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PullDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "691104fa-aa57-46be-883a-a6726107cfed",
+                    "path": "<Keyboard>/numpad9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da947b96-edc8-4e40-aaab-946f86b60f3b",
+                    "path": "<Keyboard>/numpad6",
+                    "interactions": "Press(pressPoint=1.401298E-45)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6c16373-c3bc-492c-b574-7db1cb5e3df7",
+                    "path": "<Keyboard>/numpad5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PushCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a070ea83-966a-490e-b42c-260d60646ada",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8eb87cce-9a0e-491f-8a28-cceaf52cbe8b",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AltRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49c0eaaa-8c0d-4d4b-a599-f76652b83377",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectDevice_5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Console",
+            "id": "a610ed91-21eb-47da-85cd-06096a6a454f",
+            "actions": [
+                {
+                    "name": "open_console",
+                    "type": "Button",
+                    "id": "e3ebabc4-d5b3-4639-b951-ea50cf9f40cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "pageup_console",
+                    "type": "Button",
+                    "id": "9c69dfa1-31ea-4cfe-a2e3-95c497a81124",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "pagedown_console",
+                    "type": "Button",
+                    "id": "ff4426af-9a80-4576-8cb0-502d0b8ffe7d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "delete_console",
+                    "type": "Button",
+                    "id": "8d435535-8e8d-41fc-910c-db0900ded964",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f95c361-8298-4d3d-aec3-99fd56cbb172",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "open_console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7d0351a-88ab-4ebf-a249-e12e5364aa72",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "pageup_console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a19078f8-84df-4cf9-9249-181b00f3f94b",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "pagedown_console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "421b3c6e-86d9-4423-8434-be6450598643",
+                    "path": "<Keyboard>/delete",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "delete_console",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

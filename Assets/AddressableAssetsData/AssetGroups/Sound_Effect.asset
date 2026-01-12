@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sound_Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Sound_Effect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 07ea2996c5b77514dace916e764a787a
+  m_SerializeEntries:
+  - m_GUID: a0a54691d6d2f6c488f573ffe1dbb26c
+    m_Address: se_ag_bow_shoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05f998b741c31b742a511e40812ea9a3
+    m_Address: se_ag_melee_wield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfdf894cb17a5c54885c90cf6c0be77c
+    m_Address: se_ag_shoot_gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9631ca9d2203454a954145b04667449
+    m_Address: se_ag_beat_drum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73db63b8ad4f94142bf3bbb729b1f636
+    m_Address: se_ag_gun_reloaded
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cb62f391236ee44e9251d76036b3534
+    m_Address: se_ag_device_broken
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 610f5ef8a977261438dac2864707de2f
+    m_Address: se_ag_shoot_shotgun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f562a1f283cb0c74796206ce123c54df
+    m_Address: se_ag_shoot_sniper
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b330a0c2a2e29bb4aaad259697f5f3e6
+    m_Address: se_ag_target_locked
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be92dfbcd50a13840be638bd1fae60d0
+    m_Address: se_ag_bat_bite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 741d8f0a5061ce74c864a5935b8badd1
+    m_Address: se_pixabay_shoot_rocket
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7db4e47e2e634e24dbcc7a4f92d59a77
+    m_Address: se_pixabay_rocket_explode
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba3f49189e7d7c9438d8380e3ba9c5a0
+    m_Address: se_ag_shoot_gatlin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ab30eb75aae424e958dc74e6b4fe4c
+    m_Address: se_ag_bullet_ricochet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24ef3b6384ebe44428a64cb1f8a30b00
+    m_Address: se_ag_molotov_explode
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24b33da650aab334a93f552e47c336fe
+    m_Address: se_ag_shoot_catapult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18a88e17525ee1c4f959d90c2f4c810f
+    m_Address: se_ag_stone_ricochet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec2b6578e31272047a56338f3881ebcc
+    m_Address: se_ag_shoot_needle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e656c7d65fcf9542aa26da2b52584dc
+    m_Address: se_ag_fix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75501c2b1848d494cb76002e41b755f8
+    m_Address: se_ag_monster_die_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae787315d967ec04d8b19501accda111
+    m_Address: se_ag_monster_die_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4537d679a7248148ab3abd69a69ca21
+    m_Address: se_ag_ram_hit_piercing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82637c7c8ee73734c920df216de4c47a
+    m_Address: se_ag_ram_hit_bouncing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77fada2860273374a80ea4ab7249ef86
+    m_Address: se_ram_rotate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44df3190c11dff24aa680b3bbc399052
+    m_Address: se_ag_encounter_radar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93dc74d3617d5164daf2afaa3cdece2b
+    m_Address: se_ag_melee_grinding
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 223b9534605179b499ec11376a6e7429
+    m_Address: se_ag_car_brake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f5dc0c31a9f331499ab211738386bac
+    m_Address: se_ag_shield_block
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2100e11b17bbade478a8d21768c794a1
+    m_Address: se_ag_fix_fail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8394abbe1d85c4a8cad7fe993e9cc3
+    m_Address: se_ag_device_be_hit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad16191794868464c8a5583e98225c98
+    m_Address: se_ag_encounter_windbell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f23d404dbd99224bbcf86d4886f513c
+    m_Address: se_ag_pickup_item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d04b705c9fd20234cadfe6be044bd1c3
+    m_Address: se_ag_gun_no_ammo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38b02d4e210fb474d8f29fe7372ba89d
+    m_Address: se_ag_device_ka_da
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c522a80d171356e47a664e1601afeeee
+    m_Address: se_ag_gun_bolt_load
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfbf0bf69d3bfda4698bfc3e2ab4e681
+    m_Address: se_ag_gun_bolt_unload
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fc8a523265e54c4a953ada87b6106f2
+    m_Address: se_ag_bow_reload
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1363e0fd0a356e448811407d62a9d418, type: 2}
+    - {fileID: 11400000, guid: feac5ab47e4b7a944ade53664b525e6a, type: 2}

@@ -1,0 +1,9 @@
+body_simple.png
+size:256,256
+filter:Linear,Linear
+pma:true
+car_main
+bounds:2,66,152,176
+offsets:1,1,154,178
+car_string
+bounds:2,2,10,62

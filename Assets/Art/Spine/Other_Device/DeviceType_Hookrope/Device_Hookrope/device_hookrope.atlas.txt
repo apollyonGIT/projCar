@@ -1,0 +1,17 @@
+device_hookrope.png
+size:128,128
+filter:Linear,Linear
+pma:true
+chain
+bounds:2,2,4,120
+offsets:5,0,14,121
+device_hookrope_base
+bounds:8,74,72,48
+offsets:1,1,74,50
+device_hookrope_l
+bounds:8,32,60,40
+offsets:1,1,62,42
+device_hookrope_r
+bounds:82,62,60,40
+offsets:1,1,62,42
+rotate:90

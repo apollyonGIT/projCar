@@ -1,0 +1,13 @@
+carbody_dungeon_02.png
+size:256,256
+filter:Linear,Linear
+pma:true
+car
+bounds:2,126,208,128
+offsets:1,1,210,130
+chain_1
+bounds:212,228,26,42
+rotate:90
+chain_2
+bounds:2,2,122,50
+rotate:90

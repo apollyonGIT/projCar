@@ -1,0 +1,6 @@
+monster_treetop_bombseeds.png
+size:512,512
+filter:Linear,Linear
+pma:true
+images/monster_treetop_bombseed_vine
+bounds:2,98,260,164

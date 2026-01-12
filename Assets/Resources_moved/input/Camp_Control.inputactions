@@ -1,0 +1,54 @@
+{
+    "name": "Camp_Control",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "73350967-607b-4223-9093-e928ff311573",
+            "actions": [
+                {
+                    "name": "zoom_in",
+                    "type": "Value",
+                    "id": "b6350f38-b805-4caa-8a6f-aad014d643da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "zoom_out",
+                    "type": "Value",
+                    "id": "f9cf43b5-caa3-4c5c-ba84-6b516339c5f5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "97403b1a-852a-4e28-b6f6-2560942d7856",
+                    "path": "<Mouse>/scroll/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "zoom_in",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3167a06f-024c-4f07-9494-0bb66186f248",
+                    "path": "<Mouse>/scroll/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "zoom_out",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

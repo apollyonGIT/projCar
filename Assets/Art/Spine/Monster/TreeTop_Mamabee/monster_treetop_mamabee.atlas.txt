@@ -1,0 +1,12 @@
+monster_treetop_mamabee.png
+size:128,128
+filter:Linear,Linear
+pma:true
+images/monster_treetop_mamabee_body
+bounds:2,60,60,64
+images/monster_treetop_mamabee_wing_1
+bounds:2,2,60,56
+images/monster_treetop_mamabee_wing_2
+bounds:64,72,32,52
+images/monster_treetop_mamabee_wing_tail
+bounds:64,38,16,32

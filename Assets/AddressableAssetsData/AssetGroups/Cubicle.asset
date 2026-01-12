@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Cubicle
+  m_EditorClassIdentifier: 
+  m_GroupName: Cubicle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cf90672d0dfc10e4799aac2ad8bbaa6b
+  m_SerializeEntries:
+  - m_GUID: f6ca92ebad0a9ab4e8eaad15f5e61aff
+    m_Address: Cubicle_Rotate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 353fac19412a49a4f94f3b5b6b9582c7
+    m_Address: Cubicle_Reload_Ammo_Clip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df7b8e576a957e64e8fd455e5bfff32a
+    m_Address: Cubicle_Sharp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e025bc40e1325c4f8c70a778ff097da
+    m_Address: Cubicle_Reload_Ammo_Box
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5c7db3364c097549905aa5cc21df39e
+    m_Address: Cubicle_Attack_Shoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: badf0ef9785ff3d4eb602edf471d8f75
+    m_Address: Cubicle_Attack_Melee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1532c005a6b61904498833453f9e8717
+    m_Address: Cubicle_Attack_ShootGatlin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ed28361515682949a0350191f2e3de8
+    m_Address: Cubicle_Attack_Drum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f1bc106d43325b44b941cf234f2fbea1, type: 2}
+    - {fileID: 11400000, guid: a7199b22746c1264baabe1be7cc8aea8, type: 2}

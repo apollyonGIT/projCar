@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6044b4c4a043bd4da7153c2b996b3e2, type: 3}
+  m_Name: GameConfig_JC
+  m_EditorClassIdentifier: 
+  pixelPerUnit: 100
+  desiredResolution: {x: 2560, y: 1440}
+  desiredPerspectiveFOV: 71.5
+  main_menu_website_weibo: https://weibo.com/u/1002143827
+  main_menu_website_bilibili: https://space.bilibili.com/423895
+  main_menu_website_bug_report: https://www.baidu.com/
+  scene_title_fade_out_time: 0
+  scene_title_lasting_time: 0
+  init_power_lever: 0.5
+  init_car_velocity: {x: 20, y: 0}
+  init_car_position: {x: -10, y: 7}
+  init_car_move_type: 3
+  init_car_status_acc: 0
+  init_car_status_liftoff: 1
+  per_overweight_slot_weight: 0
+  basic_backpack_slot_num: 15
+  init_backpack_items: []
+  camp_camera_size_range: {x: 3, y: 25}
+  camp_camera_zoom_speed: 0.2
+  travel_scene_camera_offset_x: 0
+  cam_pos_offset_y: 3.6
+  cam_pos_offset_z: 0
+  free_camera: 0
+  gravity: -5
+  acc_braking: -6
+  caravan_rotate_angle_limit: 25
+  caravan_rotation_damp_1: 25
+  caravan_rotation_damp_2: 4
+  car_body_collision_vx: 8
+  car_collision_loss_vel: 5
+  car_collision_loss_acc: 4
+  lever_up_speed: 1.2
+  lever_down_speed: -1
+  lever_move_delta: 0.015
+  blunt_color: {r: 0.83137256, g: 0.58431375, b: 0.12941177, a: 1}
+  fire_color: {r: 0.74902004, g: 0.37254903, b: 0.08203553, a: 1}
+  acid_color: {r: 0.03821529, g: 0.7490196, b: 0.07643058, a: 1}
+  wrap_color: {r: 0.679666, g: 0.7372549, b: 0.7490196, a: 1}
+  flash_color: {r: 0.6017404, g: 0.53862077, b: 0.7490196, a: 1}
+  normal_ui_color: {r: 0.7490197, g: 0.53501403, b: 0.078431375, a: 1}
+  normal_scene_color: {r: 0.7490196, g: 0.72161657, b: 0.6363623, a: 1}
+  device_debuff_immue_duration: 1
+  k_damage_ignite_factor: -4
+  max_ignite: 7
+  extinguish_fire_value_per_s: 30
+  k_stupor_rate_factor: -6
+  stupor_normal_fix_area: 0.1
+  stupor_kick_fix_rate: 0.5
+  stupor_kick_damage: 5
+  k_damage_acid_count_rate: 2
+  acid_ai_act_delay: 0.5
+  vine_damage: 2
+  k_damage_to_vine_rate: 0.25
+  vine_min_gap: 0.35
+  bind_ai_act_delay: 5
+  trigger_length: 14.4
+  notice_length_1: 25
+  notice_length_2: 14.4
+  event_btn_car_vx_limit: 0.1
+  event_btn_car_parking_ticks: 60
+  rope_max_length: 12
+  rope_min_length: 0.2
+  rope_elasticity: 100
+  first_load_scene: InitScene
+  caravan_id: 100101
+  init_wheel: 1210101
+  init_device_in_slot_top: 1320102
+  init_device_in_slot_front_top: 1320112
+  init_device_in_slot_back_top: 0
+  init_device_in_slot_front: 0
+  init_device_in_slot_back: 0
+  init_roles: 
+  loot_pickup_distance: 0.4
+  loot_attraction_power: 10
+  coin_surface_bounce_coef: 0.6
+  caravan_vel2_screen_bounce: 0.5
+  monster_grip: 55
+  fling_off_dis: 40
+  knock_air_threshold_factor: 1
+  breaking_rate: 0.3
+  breaking_force: 2
+  flyAround_radius_ratio: 0.56
+  jump_iterate_time: 0
+  time_pressure_min: 15
+  time_pressure_max: 60
+  pressure_kill_score: 40
+  scene_distance_begin: 45
+  scene_distance_interval: 120
+  scene_distance_end: 125
+  bullet_bounce_threshold_ekmin: 100
+  bullet_surface_bounce_coef: 0.4
+  bullet_bounce_threshold_vmax: 100
+  surface_friction: 0.6
+  arrow_penetration_loss: 12
+  bullet_penetration_loss: 9
+  bullet_enemy_bounce_coef: 0.2
+  repairing_counts: 7
+  repairing_cd_ticks: 120
+  fix_device_job_effect: 0.15
+  fix_caravan_job_effect: 0.02
+  security_zone_distance: 100
+  coin_id: 10000
+  shop_relic_f5_cost_base: 1.5
+  shop_relic_f5_cost_scene_parm: 0.3
+  shop_repair_cost_base: 2.7
+  shop_repair_cost_scene_parm: 0.25
+  safearea_enter_transition_ticks: 75
+  save_00_path: D:\save_00.dat
+  SE_target_locked: se_ag_target_locked
+  SE_fix: se_ag_fix
+  SE_fix_fail: se_ag_fix_fail
+  SE_monster_die: se_ag_monster_die_1
+  SE_encounter_radar: se_ag_encounter_windbell
+  SE_pick_up_item: se_ag_pickup_item
+  SE_device_general_ka_da: se_ag_device_ka_da
+  SE_car_brake: se_ag_car_brake
+  devicedestroy_vfx: vfx_device_broken_explosion
+  devicesmoke_vfx: smoke_vfx
+  weather_view_switch_duration: 4
+  is_load_devices: 1
+  is_load_enemys: 1
+  test_level_id: 4001

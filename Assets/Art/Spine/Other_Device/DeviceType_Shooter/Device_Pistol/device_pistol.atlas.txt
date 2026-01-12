@@ -1,0 +1,12 @@
+device_pistol.png
+size:128,128
+filter:Linear,Linear
+pma:true
+firegun_vfx
+bounds:2,60,48,64
+offsets:1,1,50,66
+pistol_1
+bounds:2,2,56,32
+rotate:90
+pistol_2
+bounds:52,112,64,12

@@ -1,0 +1,13 @@
+monster_desert_scorpion.png
+size:128,128
+filter:Linear,Linear
+pma:true
+monster_desert_scorpion_body
+bounds:2,72,96,44
+monster_desert_scorpion_legs
+bounds:100,52,64,16
+rotate:90
+monster_desert_scorpion_tail_1
+bounds:2,4,64,20
+monster_desert_scorpion_tail_2
+bounds:2,26,68,44

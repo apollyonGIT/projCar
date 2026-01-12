@@ -1,0 +1,11 @@
+testudo.png
+size:200,56
+filter:Linear,Linear
+pma:true
+light
+bounds:136,2,52,62
+offsets:1,1,54,64
+rotate:90
+testudo
+bounds:2,30,24,132
+rotate:90

@@ -1,0 +1,13 @@
+device_gyroscope.png
+size:242,64
+filter:Linear,Linear
+pma:true
+images/spiky_top_loaded
+bounds:2,2,60,60
+images/spiky_top_spin_1
+bounds:64,2,60,60
+images/spiky_top_spin_2
+bounds:126,2,60,60
+images/spiky_top_unloaded
+bounds:188,2,60,52
+rotate:90

@@ -1,0 +1,16 @@
+monster_lake_crab_blue.png
+size:128,128
+filter:Linear,Linear
+pma:true
+images/Monster_Lake_Crab_Blue_1a
+bounds:110,98,16,28
+images/Monster_Lake_Crab_Blue_1b
+bounds:2,8,36,56
+images/Monster_Lake_Crab_Blue_2a
+bounds:44,68,20,28
+images/Monster_Lake_Crab_Blue_2b
+bounds:2,66,40,60
+images/Monster_Lake_Crab_Blue_2c
+bounds:66,76,12,20
+images/Monster_Lake_Crab_Blue_Body
+bounds:44,98,64,28

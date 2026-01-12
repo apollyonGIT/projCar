@@ -1,0 +1,11 @@
+vine_shield.png
+size:192,56
+filter:Linear,Linear
+pma:true
+light
+bounds:128,2,52,62
+offsets:1,1,54,64
+rotate:90
+vine_shield
+bounds:2,6,48,124
+rotate:90

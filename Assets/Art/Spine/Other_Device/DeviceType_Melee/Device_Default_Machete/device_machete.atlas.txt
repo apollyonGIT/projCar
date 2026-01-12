@@ -1,0 +1,7 @@
+device_machete.png
+size:128,128
+filter:Linear,Linear
+pma:true
+machete
+bounds:2,102,120,20
+offsets:1,1,122,22

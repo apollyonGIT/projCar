@@ -1,0 +1,17 @@
+device_musket.png
+size:128,128
+filter:Linear,Linear
+pma:true
+firegun_main
+bounds:2,76,112,44
+offsets:1,1,114,46
+firegun_move
+bounds:52,2,72,8
+offsets:1,1,74,10
+rotate:90
+firegun_trigger
+bounds:62,54,24,20
+offsets:1,1,26,22
+firegun_vfx
+bounds:2,10,48,64
+offsets:1,1,50,66

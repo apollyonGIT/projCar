@@ -1,0 +1,13 @@
+monster_treetop_spikebird.png
+size:256,256
+filter:Linear,Linear
+pma:true
+head
+bounds:2,128,112,40
+monster_treetop_spikebird_body
+bounds:2,78,84,48
+monster_treetop_spikebird_wing_1
+bounds:116,132,36,52
+rotate:90
+monster_treetop_spikebird_wing_2
+bounds:2,12,56,64

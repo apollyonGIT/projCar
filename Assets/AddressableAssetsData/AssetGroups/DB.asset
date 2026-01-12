@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DB
+  m_EditorClassIdentifier: 
+  m_GroupName: DB
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c2a8d8991d83b50449da77a305f45f14
+  m_SerializeEntries:
+  - m_GUID: 759fd28af913b534bb577b4685b5c63e
+    m_Address: buff_info
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85c8ca64af5f0f94ca4b1420342ac354
+    m_Address: level
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b85eeeffb7cef434a83e0e72bead4a24
+    m_Address: scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 545c5afeae6c80e499a7368e9b1b0809
+    m_Address: scene_resource
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1758044caa210d84fa73b336dee3dfa6
+    m_Address: scene_road
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b165b1d6821ed6f43836955606352642
+    m_Address: caravan_body
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f7a0b3407f5b504299516d77863f4ed
+    m_Address: caravan_slot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c75bab88cfcaba47bde26a1e0735a38
+    m_Address: device_all
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 863764a7ce6f2104ea94430332dea1d2
+    m_Address: device_wheel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92853459e5c9ade4a91f48a4fe55a5ac
+    m_Address: map
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 999d53c5800940848a2a8f420f61faa6
+    m_Address: event_site
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e9f714df5b082468c236e672459e3f
+    m_Address: projectile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0207e1fec5dfa7a4ab9cf964ec53aa7b
+    m_Address: fire_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daa762175f63638438efd525d153e73c
+    m_Address: plot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a14120d309b1c943a02ecaa44b4d4b8
+    m_Address: monster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0288e13fa0d68e45a1eb139cc7f94de
+    m_Address: spine_monster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8eb5ea599ea872c4da11abb0a7151c71
+    m_Address: table_l10n
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34e7c7c70136a624b88efffbddd0d027
+    m_Address: role
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a72bedb96df390e49a44d3af1eea558e
+    m_Address: relic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fccaebfad4bcada4eb35b014c833cc11
+    m_Address: melee_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a45b7fa15ce29ac46b59c251cd708c04
+    m_Address: hook_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1eae697c0a69b14aab6cdedc4914ebd
+    m_Address: sub_monster_car
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c7105a588c3e3d45b588bc63c1b90c5
+    m_Address: spine_caravan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1936b7b5fcb42a409d4e9fc9c6f942b
+    m_Address: loot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8553e51cc8827064593bd20777e31327
+    m_Address: game_world
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05f293dc3c7bfb7428ace21d7a8be5e2
+    m_Address: shield_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f74668e1f26c99d4c8a0b3c81b908bc9
+    m_Address: device_upgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b588761c535ed214da4f109036ce557c
+    m_Address: dialog_l10n
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e79bac3a236ab340b233da27829b9ad
+    m_Address: pool_relic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb7337ba21e325949896bfc2b0a5f774
+    m_Address: pool_loot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a3ca22de4e28204690d9f2191dfeb6d
+    m_Address: other_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd3c59a838049684a8f312c8762959af
+    m_Address: ram_logic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0e435dc1863bdc46a4f946cba711716
+    m_Address: device_tag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24bdecff61aca0243ad20bbaaa056fc8
+    m_Address: properties
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1166e519e35ac34429e3924e0cfdfc2f
+    m_Address: shop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cd125b055724424095080ed40ff4ccb
+    m_Address: camp_coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77f8c610396e1204ca7f6cefbbdf5ddf
+    m_Address: relic_pool
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63b82abf410f1bd4790e4b8375745f4e
+    m_Address: device_cubicles
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e07517ea3234e1a43a7b6ba4ad08a445
+    m_Address: mg_scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a425cee2dfd0a940996edf95ae73604
+    m_Address: mg_weather
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 937f4ad02c10a2a40a002be3b9e63755
+    m_Address: weather
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dc9e0395c477484a8552ac0705e857a
+    m_Address: weather_group
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c25d7ef77d541ab4b8c9272b25771af3
+    m_Address: battle_data
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd1fd0c74dbcbc74a84ced34563919d0
+    m_Address: safe_zone_event
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4433907db040a4149ac516f1b68cee96
+    m_Address: shop_ui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 388419e6693b38444a33d53d328bf031
+    m_Address: scene_shop_group
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77400e3f5aaa1f44b8f3f32d0c3de7ac
+    m_Address: encounter_dialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f8af3a589c602647b3e3613d6141e7f
+    m_Address: device_rank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95f4f550f724d1345998ad0480ad2eb4
+    m_Address: relic_rank
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0e42722d481d2548be0def329aadb5a
+    m_Address: tech
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b41184e5d45504140883e71f5e04df99, type: 2}
+    - {fileID: 11400000, guid: f809e54cd8f118244b4cb8f22ca42c3a, type: 2}

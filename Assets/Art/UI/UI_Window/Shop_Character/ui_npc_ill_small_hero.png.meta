@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: 93a2bb1cbca3f26429c239f5f6323eaf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ill_small_hero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68567706a3f052346bfc9108c0c07571
+      internalID: -80907354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c87593209cfbf04db702cc77036ac22
+      internalID: 1742340365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc52da66b7a6f0a49978e05a00dad8bd
+      internalID: 280081274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_3
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a799373c6a8574498687d5924dee5f
+      internalID: -437265500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc2ee71cbee90144b9c28a98aa818f9
+      internalID: -1277154181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c4316f373e71244acc652f3fcd733a
+      internalID: 886321931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_6
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a452a5ccc8b64341b2ea235a94654e2
+      internalID: -1818273895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_7
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2e6bc764b08c241bd5ed5b98651e5d
+      internalID: 1841858072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_8
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d90a1b92c42b54e8622b03493bf547
+      internalID: -292889465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_9
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1488
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cc2081e9b61854fb7a5b7b996343b1
+      internalID: -1493622324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09205cf3eb84a4b968cff72357e5ab
+      internalID: 866138740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd434779979f0a40b2f9ced20bce966
+      internalID: 1573359073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45cc56b4f76e2b4384df52fd6a8e6c3
+      internalID: 761434100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c813b0287cb9fd40bd603952078665d
+      internalID: 1135006708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_14
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d19e8291d28a540905a154efa21e69
+      internalID: 1952112431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_15
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93130b2db4feb144d9e69b7930c019af
+      internalID: 1268361676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_16
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c409bb1e3c6057c4eaa8f7f2090e622b
+      internalID: -925958519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_17
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0bea882081204289ddc88663dbe95
+      internalID: 826542097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_18
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6145382b7ceba4b938cf1561d989be
+      internalID: 536043530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_19
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 992
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ecbefe8b693e4ba6707180a2eef7a
+      internalID: 1017925872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acfc53886524224bb511e4057b83eb0
+      internalID: 1478875394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1847702b4ce1a44909ce1cf0f64896
+      internalID: 402184227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9b3784efaba642ac639f28b146c60
+      internalID: -84332241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_23
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70147386054c0140961774a5520f395
+      internalID: 1165489700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_24
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87bbfa1e071da247aa22a4ab4826fed
+      internalID: 1955031224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_25
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b168f41cfa71013499c4e191adbfda81
+      internalID: -1086261425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_26
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f65d07d234a34494aab64a4acb3c1
+      internalID: 1500276228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_27
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d04b6054d3a149a4f112e5612c2ea
+      internalID: -31699776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_28
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7919e13c2a6ee4c41ad8c036eed06b08
+      internalID: 1022191914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ill_small_hero_29
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 496
+        width: 208
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385a09c075846a4383dcbb17bb91369
+      internalID: 431974544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ill_small_hero_0: -80907354
+      ill_small_hero_1: 1742340365
+      ill_small_hero_10: 866138740
+      ill_small_hero_11: 1573359073
+      ill_small_hero_12: 761434100
+      ill_small_hero_13: 1135006708
+      ill_small_hero_14: 1952112431
+      ill_small_hero_15: 1268361676
+      ill_small_hero_16: -925958519
+      ill_small_hero_17: 826542097
+      ill_small_hero_18: 536043530
+      ill_small_hero_19: 1017925872
+      ill_small_hero_2: 280081274
+      ill_small_hero_20: 1478875394
+      ill_small_hero_21: 402184227
+      ill_small_hero_22: -84332241
+      ill_small_hero_23: 1165489700
+      ill_small_hero_24: 1955031224
+      ill_small_hero_25: -1086261425
+      ill_small_hero_26: 1500276228
+      ill_small_hero_27: -31699776
+      ill_small_hero_28: 1022191914
+      ill_small_hero_29: 431974544
+      ill_small_hero_3: -437265500
+      ill_small_hero_4: -1277154181
+      ill_small_hero_5: 886321931
+      ill_small_hero_6: -1818273895
+      ill_small_hero_7: 1841858072
+      ill_small_hero_8: -292889465
+      ill_small_hero_9: -1493622324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,7 @@
+device_long_harpoon.png
+size:80,32
+filter:Linear,Linear
+pma:true
+scale:0.5
+device_long_harpoon
+bounds:2,2,76,28

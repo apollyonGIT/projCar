@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemy_UIs
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemy_UIs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f58b0e8360f70ab4d9c43789feeb614d
+  m_SerializeEntries:
+  - m_GUID: 5772ad144cc48ba4390f868f82d3c6f2
+    m_Address: enemy_hp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e029e22d7650dd47bc1741e4915ae42
+    m_Address: enemy_elite_hp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4c6f3d1dd31ce340ac2664b5cad6b15
+    m_Address: elite_hp_clip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 84ebd7c32dde4e74fb74c3b5ebeb0dac, type: 2}
+    - {fileID: 11400000, guid: 05e0905421327224c9c91e3a9be5a237, type: 2}

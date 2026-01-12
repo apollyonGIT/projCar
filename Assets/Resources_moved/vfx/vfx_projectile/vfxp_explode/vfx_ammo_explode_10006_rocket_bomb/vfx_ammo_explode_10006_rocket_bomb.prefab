@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8100707624415551309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 476773332773512650, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 476773332773512650, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 476773332773512650, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 476773332773512650, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 525907974197450437, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810897009951893270, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_Name
+      value: vfx_ammo_explode_1205_rocket_bomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 7255767492808234336, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: simulationSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7343736408599637592, guid: 410dc4089940964448d7f8d8553f583d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 521c88abd91743e41ba659e5db3528cf, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 410dc4089940964448d7f8d8553f583d, type: 3}

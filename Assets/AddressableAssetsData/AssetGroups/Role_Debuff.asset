@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Role_Debuff
+  m_EditorClassIdentifier: 
+  m_GroupName: Role_Debuff
+  m_Data:
+    m_SerializedData: []
+  m_GUID: db64bb345f551dc41be05c8345eb4c68
+  m_SerializeEntries:
+  - m_GUID: 7342910781ca5ff4ba7c392638738d32
+    m_Address: ui_role_coma_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c3d90ff2123f2f479df3465c4bf13da
+    m_Address: ui_role_coma_click_hover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d35428e4ce246464d9de3205e7162a62
+    m_Address: ui_role_coma_click_down
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: deadf2e95686e50428099fa7b089b47b, type: 2}
+    - {fileID: 11400000, guid: f9881a4ddcb64cd43a0eb6cf02969329, type: 2}

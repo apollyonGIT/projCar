@@ -1,0 +1,335 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemys
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemys
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 38c6072de38877a43950d32151f17171
+  m_SerializeEntries:
+  - m_GUID: b90a86eab59db8343bfa9a35e4ae0f86
+    m_Address: monster_201103_dungeon_springtail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e705075c51d9ea84f9d4288f5db12ac1
+    m_Address: monster_201105_dungeon_springtail_rider
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 826c943a5d89a6b42933078a12272868
+    m_Address: monster_201104_dungeon_caveman
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68f04f7ee4b95ff44899b69f85af2628
+    m_Address: monster_201101_dungeon_bat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47880ef49054a6049aa50815b5fde2b9
+    m_Address: monster_201102_dungeon_beatle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a678a0cd62b977742be7072f6e48ff3d
+    m_Address: monster_201106_dungeon_bat_rider
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86cc0c9bb9f3ce9419b54c2a232c7783
+    m_Address: monster_201107_dungeon_caveman_wanderer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcad35c0446e2fe44a88fd6f236d8c78
+    m_Address: monster_201108_dungeon_caveman_arsonist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2a8dc944b6828a44ba0a594653344f3
+    m_Address: monster_201109_dungeon_caveman_mob
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83c737849851f0440abe9c47153a1aa6
+    m_Address: monster_201801_Lake_GoldFish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12e77acf30f7fa44bb09b9dfb490b42a
+    m_Address: monster_201802_Lake_GoldFish_Bubble
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01741afd3855df646b8cb63d86915ae8
+    m_Address: monster_209000_Lake_Bat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8069ba34ddfe5a45bf95ad13033b91b
+    m_Address: monster_201803_Lake_XiaoYao
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3bef28d6c5a8c242b7c0984af333cc5
+    m_Address: monster_201804_Lake_CatFish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79bd6c41a1d7cb14e975b406a18fb91b
+    m_Address: monster_201805_Lake_Flower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a24cdeb3fa79af94abfd5cfd21649c3f
+    m_Address: monster_201806_Lake_GiantJelly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d9f714e5e2a8cf429b570dd0dcd3c8c
+    m_Address: monster_201807_Lake_SmallJelly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6131cb6d4ce8ce14abd3a83c6f1ddd6c
+    m_Address: monster_201815_Lake_Crab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04c6096973986a646a2b4de7ce1eacf4
+    m_Address: monster_201809_Lake_ExplodeJelly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8639b9a55ad352e4398d380b693a074c
+    m_Address: monster_201810_Lake_Swamp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1445581be6c616a489bb5b025721a699
+    m_Address: monster_201811_Lake_Frog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7dc57fb20173e543b8b9c7593c27c00
+    m_Address: monster_201818_Lake_Shell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 795316192a0819d44a57545b914d4d15
+    m_Address: monster_201813_Lake_Squid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f285f410081eab4c9524a0ab0524d07
+    m_Address: monster_201860_Lake_BigTeeth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2efb6f1d09a34834e91a6e448c02dc4c
+    m_Address: monster_201870_Lake_Tangler
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f766f09a99eaf4479eca907ca9961fc
+    m_Address: monster_201850_Lake_GoldFish_King
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7266ff7a3e125984cb12273b15a24f4d
+    m_Address: monster_201712_Desert_Small_Weed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d42d55c652bd6b04fb7f5c135a56a5ec
+    m_Address: monster_201711_Desert_Giant_Weed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6ced76d1f76dc84c82b69fea64275cc
+    m_Address: monster_201710_Desert_Small_Cactus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8ccb3257cc7e854f9a654f7c4ea644a
+    m_Address: monster_201709_Desert_Giant_Cactus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ce0687405c0c30439363a99614ed0c0
+    m_Address: monster_201708_Desert_Akimbo_Guard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0bea709e70620e4faae2fa51fe5e195
+    m_Address: monster_201707_Desert_Balance_Guard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efe85d3a10b89d64994e538a999a64c7
+    m_Address: monster_201706_Desert_Shield_Guard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 781c4a8cf7c29d44883eebe8e6278e2b
+    m_Address: monster_201705_Desert_Small_Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 859c7216eba7baa42af41f0e934dd6a2
+    m_Address: monster_201704_Desert_Giant_Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12ef8985d593d264bbd93fd1fba3899d
+    m_Address: monster_201703_Desert_Scorpion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa150113054dc22418b5de50b94f8d83
+    m_Address: monster_201702_Desert_Snake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25e74c64dc00184a93c035f53e92b8f
+    m_Address: monster_201701_Desert_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e13c8df4ddc73e4693830bc5315c0cc
+    m_Address: monster_201401_Treetop_Lamp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa0d7c9900d73864e859ad2034d0e959
+    m_Address: monster_201403_Treetop_Berry
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0bcef957d1973b4cb0b4c2080c2786d
+    m_Address: monster_201402_Treetop_Berry_Bush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa25ad98b9f2d2478e23fa1c4e09c9d
+    m_Address: monster_201404_Treetop_Fairy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aff34ce9c2082d34a9b2e2c3c7337a77
+    m_Address: monster_201405_Treetop_Fish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8946b3538e2733409021632507fa3c9
+    m_Address: monster_201406_Treetop_Vase
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b2b54dd3973ea940b008dac5bb54b8a
+    m_Address: monster_201407_Treetop_Ghost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46c6e897a8ebdee4e8d34823a01a1df0
+    m_Address: monster_201408_Treetop_Spike_Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bcb6da1db810c645b8c0609ef9051c4
+    m_Address: monster_201409_Treetop_Squirrel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8255f75df26eb1c40bba3fef8c1256b9
+    m_Address: monster_201410_Treetop_Monkey
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6085e5319026cfb4db37de8f1585959a
+    m_Address: monster_201411_Treetop_Bee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 578d70c96bab20b4c9f77351695b6406
+    m_Address: monster_201412_Treetop_Young_Bee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3464e6d75a44c5845b4523d5d8b535a7
+    m_Address: monster_201413_Treetop_Blue_Sparrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22481564981437b4ea612e21af91bbc5
+    m_Address: monster_201414_Treetop_Red_Sparrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed085afca4af4dd468adc5be58224593
+    m_Address: monster_201415_Treetop_Yellow_Sparrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 646b7f099b2458c409a696d0d28ae395
+    m_Address: monster_201416_Treetop_Branch_SuSu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 660fa37dbcdba3c40955fd24050bbcd2
+    m_Address: monster_201417_Treetop_Bell_SuSu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7ed16ff8d78c0b4da54a795bdee4a05
+    m_Address: monster_201418_Treetop_Slow_Magic_Missile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ebfda63d26be244a99b3ca26854b3e0
+    m_Address: monster_201419_Treetop_Wood_SuSu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e197c2edbd96e642acac2f5cf42cf1b
+    m_Address: monster_201814_Lake_Crab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d345127de9a29d74cae84aeefcdcbc0b
+    m_Address: monster_201819_Lake_Shell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66fe3d704cec6a941b5518cab7b7da44
+    m_Address: monster_201820_Lake_Lit_ExplodeJelly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d191c262199a9e43b1b8df3bd706638
+    m_Address: monster_201821_Lake_Lit_Shell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceeba6d97c935074d88480c50d59c718
+    m_Address: monster_201822_Lake_Lit_XiaoYao
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 03a82b43737c52047906700e0e96c5d6, type: 2}
+    - {fileID: 11400000, guid: 6af79f6ca35226c4c8d32ce66298c03d, type: 2}

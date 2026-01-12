@@ -1,0 +1,6 @@
+device_short_harpoon.png
+size:256,256
+filter:Linear,Linear
+pma:true
+device_short_harpoon
+bounds:2,54,136,84

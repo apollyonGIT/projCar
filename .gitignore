@@ -1,0 +1,55 @@
+.DS_Store
+/Library/
+/Temp/
+/Logs/
+/Build/
+/UserSettings/
+/Packages/packages-lock.json
+/.vs/
+/.vscode/
+/obj/
+/.vsconfig
+/*.csproj
+/*.sln
+/Assets/LycTest/*.png
+/Assets/LycTest/*.meta
+/Assets/LycTest/*.unity
+/Assets/LycTest/*.physicsMaterial2D
+/Assets/LycTest/*.cs
+/Assets/Samples/*.meta
+/Assets/Samples/Input System/*.meta
+/Assets/Samples/Input System/1.7.0/*.meta
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.json
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.cs
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.meta
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.unity
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.md
+/Assets/Samples/Input System/1.7.0/Input Recorder/*.asmdef
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.json
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.cs
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.meta
+/Assets/Samples/Input System/1.7.0/Rebinding UI/Icons/*.png
+/Assets/Samples/Input System/1.7.0/Rebinding UI/Icons/*.meta
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.md
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.prefab
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.inputactions
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.unity
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.lighting
+/Assets/Samples/Input System/1.7.0/Rebinding UI/*.asmdef
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.json
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.meta
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.prefab
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.md
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.cs
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.inputactions
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.unity
+/Assets/Samples/Input System/1.7.0/Simple Demo/*.lighting
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.json
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.prefab
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.meta
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.md
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.inputactions
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.png
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.unity
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.cs
+/Assets/Samples/Input System/1.7.0/UI vs. Game Input/*.asmdef

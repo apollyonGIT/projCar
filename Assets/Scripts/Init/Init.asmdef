@@ -1,0 +1,17 @@
+{
+    "name": "Init",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5044b757666a5a04bbfeb950bfc8d210",
+        "GUID:8bc82ab3beae23a44928d859ed07c5b3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

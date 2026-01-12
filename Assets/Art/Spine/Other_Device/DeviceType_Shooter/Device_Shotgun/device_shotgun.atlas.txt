@@ -1,0 +1,15 @@
+device_shotgun.png
+size:128,128
+filter:Linear,Linear
+pma:true
+shotgun_move
+bounds:2,74,100,52
+offsets:1,1,102,54
+shotgun_trigger
+bounds:2,2,16,12
+offsets:1,1,18,14
+rotate:90
+shotgun_vfx
+bounds:2,20,52,96
+offsets:1,1,54,98
+rotate:90

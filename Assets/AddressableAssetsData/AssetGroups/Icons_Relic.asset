@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Icons_Relic
+  m_EditorClassIdentifier: 
+  m_GroupName: Icons_Relic
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a326a21e56de234428954c6b13c81436
+  m_SerializeEntries:
+  - m_GUID: 2afabd75377016546a764bc4f84cc311
+    m_Address: ui_relic_icon_bg_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d49f7d97b4bad7348818398092646f89
+    m_Address: ui_relic_icon_bg_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c23f60da03493c46bc1ae775c4bf5fa
+    m_Address: ui_relic_icon_bg_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfd249a1b55afbb41ada3806f2a96b57
+    m_Address: ui_relic_icon_bg_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03450d8f229432a4db6c2017d028ba81
+    m_Address: ui_relic_icon_bg_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f0dc81c35063b8488397f5eb57b190c
+    m_Address: ui_relic_icon_board_level_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09d3e9d43c504d0479964bd1b642cb90
+    m_Address: ui_relic_icon_board_level_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1e481c46bf204b45bf0f924499b7cb1
+    m_Address: ui_relic_icon_board_level_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3069d9d0fbcf2d4083d8deef70b2eb9
+    m_Address: ui_relic_icon_board_level_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06401b8e180ea6041b006f88207caf1e
+    m_Address: ui_relic_icon_board_level_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0690bcf3cd2efb4ab03333564fa334f
+    m_Address: relic_layout
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 901b9ee5a327a2a4c9570455eeeaadf2, type: 2}
+    - {fileID: 11400000, guid: f7b8e8302d9e0c24eb71d9e0bb33a8c9, type: 2}

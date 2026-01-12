@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 483f764ab42c7794ab6ab7468a1b646b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - excelAssetIcon: {fileID: 2800000, guid: 9892c07de6ce63643aae45b891096d01, type: 3}
+  - binaryAssetIcon: {fileID: 2800000, guid: 05c89f1eeba942946a9e4ff41cd11930, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

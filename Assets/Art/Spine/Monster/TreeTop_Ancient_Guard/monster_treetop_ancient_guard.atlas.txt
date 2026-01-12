@@ -1,0 +1,10 @@
+monster_treetop_ancient_guard.png
+size:256,256
+filter:Linear,Linear
+pma:true
+monster_treetop_ancient_guard_core
+bounds:92,92,48,48
+monster_treetop_ancient_guard_down
+bounds:2,26,88,52
+monster_treetop_ancient_guard_up
+bounds:2,80,88,60

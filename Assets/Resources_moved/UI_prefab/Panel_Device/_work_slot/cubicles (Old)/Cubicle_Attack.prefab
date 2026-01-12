@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6396751534016926319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2369018332422651687, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_Name
+      value: Cubicle_Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834221854464504492, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 824955383, guid: bb850ce58de1ddd4a88df371c1ead2f5, type: 3}
+    - target: {fileID: 6048474619491197157, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6065604455970096066, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708618299128601459, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708618299128601459, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708618299128601459, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708618299128601459, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708618299128601459, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6334844025740669715, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2369018332422651687, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4538975765630783310}
+  m_SourcePrefab: {fileID: 100100000, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+--- !u!1 &930143669852066221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6065604455970096066, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+  m_PrefabInstance: {fileID: 6396751534016926319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005026012446515395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4834221854464504492, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+  m_PrefabInstance: {fileID: 6396751534016926319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7708094174728450771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3620178803641409724, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+  m_PrefabInstance: {fileID: 6396751534016926319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78060f45f03acfd46a0ea11eac658751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8657504253913541960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2369018332422651687, guid: 23d9f4165814f564d83d61ecaaf9d925, type: 3}
+  m_PrefabInstance: {fileID: 6396751534016926319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4538975765630783310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8657504253913541960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dd469e593aa474abe721cd8a7ce113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon_image: {fileID: 2005026012446515395}
+  station_view: {fileID: 7708094174728450771}
+  highlight: {fileID: 930143669852066221}
+  attack_progress: {fileID: 0}

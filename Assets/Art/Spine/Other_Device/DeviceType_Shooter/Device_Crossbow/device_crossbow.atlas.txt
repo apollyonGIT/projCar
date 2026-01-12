@@ -1,0 +1,12 @@
+device_crossbow.png
+size:128,128
+filter:Linear,Linear
+pma:true
+arrow_arrow
+bounds:2,88,96,28
+offsets:1,1,98,30
+arrow_main
+bounds:2,2,40,84
+offsets:1,1,42,86
+arrow_string
+bounds:44,40,6,46

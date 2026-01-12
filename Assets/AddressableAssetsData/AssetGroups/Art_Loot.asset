@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Art_Loot
+  m_EditorClassIdentifier: 
+  m_GroupName: Art_Loot
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b1ec91fc2fd13204baa9345672fb51f3
+  m_SerializeEntries:
+  - m_GUID: 69b5f5f579f1cf84ba531add930ef37c
+    m_Address: loot_6074_high_explosives
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5a55c0982f5c384486211486d714fe8
+    m_Address: loot_6055_fire_powder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5ca929d23f9cca4cb44695df189663b
+    m_Address: loot_6073_high_quality_grindstone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af7747641e994f4dbe598615d699437
+    m_Address: loot_6070_feast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91a80542a95e9d349a278790dde58270
+    m_Address: loot_6054_grindstone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3bdcd8063c26e64ab4ed88498ae57e7
+    m_Address: loot_6071_strong_leather
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9880460536e0eea48945b3b713ede16b
+    m_Address: loot_6051_harden_animal_skin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f2a4a3c45f80dc478f772261f38ce2d
+    m_Address: loot_6014_glue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc966f0c7a3be544eb2270235a40c1fd
+    m_Address: loot_6056_string
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60967b5a6cf9b4d489bc3cf899eb82ce
+    m_Address: loot_6023_flammable_powder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 071d63f9fe1fa054ab5f54e1435629a8
+    m_Address: loot_6050_meal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d36d9c17851e1f746836be469ab1eedf
+    m_Address: loot_6012_fruit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7b199c436e85764aa70820a7f7003c8
+    m_Address: loot_6053_metal_parts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10947c0c1a7bd3b4c85506b2c918d20d
+    m_Address: loot_6031_metal_scrap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72c82ddb13c355941a78b6a273b5c1a4
+    m_Address: loot_6030_timber_scrap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a065290855b61244db268d5dedfbb90c
+    m_Address: loot_6052_timber_part
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d45f7a73fb39c4daaebd54c7c5daa9
+    m_Address: loot_6072_weapon_parts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af9dec1c169342b42a67cd4793b78001
+    m_Address: loot_6013_fiber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 118eb41c6f2448b48b01a681e0edbb14
+    m_Address: loot_6001_soul
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c120b4d0cb96bc489dd75a7a5db258e
+    m_Address: loot_6022_stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e6e229f295371d4fb63b1f1dd00625f
+    m_Address: loot_6021_ore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa5303b6b4b518a4f9088457deb011a8
+    m_Address: loot_6020_wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9e3c53c8ffb0ae4c948471f2aeea64d
+    m_Address: loot_6011_soft_fur
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb1ec9ff397773c48874790c9d9c348a
+    m_Address: loot_6010_meat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a02b99eebe7785146b45eaa187964ca1
+    m_Address: loot_6000_coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c299898b847da14fa701f5f8333c7a4
+    m_Address: loot_6002_meat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 567d0e9441687384da0846170ebd651e
+    m_Address: loot_6003_wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f884c052ab7cd02408ab5af2588462f5
+    m_Address: loot_6004_metal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8422b8bf895fec040880451afdb4f4b0, type: 2}
+    - {fileID: 11400000, guid: 5965d337abe862f499d64e6ae399eb13, type: 2}

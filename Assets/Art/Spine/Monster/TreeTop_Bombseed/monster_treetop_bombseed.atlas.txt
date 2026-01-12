@@ -1,0 +1,15 @@
+monster_treetop_bombseed.png
+size:256,256
+filter:Linear,Linear
+pma:true
+images/monster_treetop_bombseed_1
+bounds:2,92,84,84
+images/monster_treetop_bombseed_2
+bounds:2,178,96,76
+images/monster_treetop_bombseed_3
+bounds:2,2,88,80
+rotate:90
+images/monster_treetop_bombseed_4
+bounds:100,182,80,72
+images/monster_treetop_bombseed_5
+bounds:88,100,76,76

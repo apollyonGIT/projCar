@@ -1,0 +1,9 @@
+wooden_shield.png
+size:78,66
+filter:Linear,Linear
+pma:true
+light
+bounds:2,2,52,62
+offsets:1,1,54,64
+shield
+bounds:56,4,20,60

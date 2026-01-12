@@ -1,0 +1,20 @@
+monster_dungeon_caveman_arsonist.png
+size:256,256
+filter:Linear,Linear
+pma:true
+caveman_arm1
+bounds:32,36,16,20
+caveman_arm2
+bounds:92,114,28,24
+caveman_body
+bounds:92,140,44,40
+caveman_head
+bounds:2,58,88,60
+caveman_head 2
+bounds:2,120,88,60
+caveman_leg1
+bounds:138,160,20,20
+caveman_leg2
+bounds:2,2,20,20
+fireball
+bounds:2,24,28,32

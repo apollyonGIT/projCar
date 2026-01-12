@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemy_Outters
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemy_Outters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 33431d0a71458dd4199c908b5bb29796
+  m_SerializeEntries:
+  - m_GUID: fad2d3ae83bc1814eaf05ca728c97d59
+    m_Address: Frog_Outter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 434ad6c6478d51c47bd0b79239ce6a25, type: 2}
+    - {fileID: 11400000, guid: 264c6a5cd1827d44fb5fdcf41dcb5d60, type: 2}

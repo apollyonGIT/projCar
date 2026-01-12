@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Summons
+  m_EditorClassIdentifier: 
+  m_GroupName: Summons
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d74a02bee9733e840b9227955aa30094
+  m_SerializeEntries:
+  - m_GUID: a4030b17c82d71749b0eccbe5953c833
+    m_Address: summon_BlackHole
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2372c1a15aca0cb45b933ddbb0beed44
+    m_Address: summon_Magnet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fb0d8a5d500e54c88fe3f6ea9315e9
+    m_Address: summon_Recycler
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 264d482413c3d264c93219ade9020176, type: 2}
+    - {fileID: 11400000, guid: e4a25c6dded142841b441fa67a8c79d3, type: 2}

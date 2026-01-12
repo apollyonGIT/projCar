@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Device
+  m_EditorClassIdentifier: 
+  m_GroupName: Device
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5c0083710f6fc054f9a95cb7288b2710
+  m_SerializeEntries:
+  - m_GUID: a6eb0a61ef196254eb5e820779867f2a
+    m_Address: device_1320102_pistol
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67f5087c6da09847ad0cad7e7652f1b
+    m_Address: device_1320101_bow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3db79e7eae9c8604c8d59db6b60c2d41
+    m_Address: device_1320103_shotgun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 104702c6ad8b16b459b5ba29d4b2d5ce
+    m_Address: device_1210101_wheel_wooden
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d781558dec65c4b8918387cc7af16c
+    m_Address: device_1320104_volley_gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0cfb77426956e046a2e57870e023783
+    m_Address: device_1320105_rapid_fire_quiver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d860de853abbe24ab22c5249d33d7d1
+    m_Address: device_1311101_executioner_baton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0c07d45b6ee3254eb5c7b14f29a311d
+    m_Address: device_1320114_catapult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0d93e92b03607849a8576717f85ca86
+    m_Address: device_1320106_rocket_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d76ae67858b1ba5439e6608f8d8aabd4
+    m_Address: device_1311102_executioner_halberd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbd1843dcdb960a409fc33705cfebc4d
+    m_Address: device_1320107_homemade_rocket_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a82074917227d294ba4c4bf1f3380063
+    m_Address: device_1350101_hookrope
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66e689164c160b244bb406421b88f540
+    m_Address: device_1321101_anti_riot_revolver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eda8650b8a67c4f4bb21143537b4f70b
+    m_Address: device_1321102_anti_riot_shotgun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 045a7d97102bf4747a28a0ebf6dceb0b
+    m_Address: device_1351101_slave_hookrope
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c017680b9cc6abe47879f6ca23b2b082
+    m_Address: device_1350102_merchant_crane
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ce510844fdf78c47a095ff4a0432c3c
+    m_Address: device_1351102_executioner_hookrope
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebb06bfc7aa2b6d4bbb0af5d3304526d
+    m_Address: device_1330103_catching_flower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1811077dfbc1561438912b3c86fbfda5
+    m_Address: device_1210102_wheel_track
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baac833fd1c1f5f40a9e3a79a697e359
+    m_Address: device_1310101_dagger
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72b89a29ecc172e4faef82880b9c063e
+    m_Address: device_1310102_machete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 650fe2388694f6e4ba2ceb97225751df
+    m_Address: device_1310103_claymore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80b936ee0eccd4c42a4aaf7f88b0c5de
+    m_Address: device_1310104_spear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b1a502619cba5a439e1226470f4ead2
+    m_Address: device_1350103_merchant_tower_crane
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c828d2f34b2f2ff4699bbbebaf3e652c
+    m_Address: device_1320108_musket
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64de8906783a6f144ba67104581d695a
+    m_Address: device_1320109_fortune_pistol
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36d79217ed3065d46880fdfd26ad038f
+    m_Address: device_1330102_war_drum
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d9f621853012f846ae07004e34999f7
+    m_Address: device_1360101_spear_ram
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afaeab96e86984c4bb2ce81bb374cfc1
+    m_Address: device_1330104_gyroscope
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dc0141acd01101449eecc0bd129a793
+    m_Address: device_1360102_metal_ram
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14d43d780941bc1418bfc445423453f9
+    m_Address: device_1360103_bouncing_mushroom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1eb695142c571c4428dac366ab2e3bbe
+    m_Address: device_1340101_buckler
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b2a2910bbb9e5140bf51c83481e8160
+    m_Address: device_1340102_wooden_shield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 129d3d2282aa1bf4cb7297edc523b10f
+    m_Address: device_1340103_testudo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfadc0e35f61c534fb1d41f5e1de5a67
+    m_Address: device_1340104_lether_shield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a46bf73a33127a8409515c5a6760b238
+    m_Address: device_1340105_metal_plate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7e6639e9cfeb8247874b3be79be4155
+    m_Address: device_1340106_spiked_shield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa9a57b590f05c74f8ce5f26add28d32
+    m_Address: device_1340107_vine_shield
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f09951562558ada4f9d476453de6691f
+    m_Address: device_1340108_protective_short_sword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7198c3cf8ec28d54ebaaf0c2e345c195
+    m_Address: device_1320115_roll_wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46197cd2dc1eead418adfcb686827a38
+    m_Address: device_1330107_BlackHole
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5d5eae37737b8149a5654da16520020
+    m_Address: device_1340109_shield_generator
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38570427138d6014ba5e40681cfcb554
+    m_Address: device_1330108_Magnet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee9b174822b9f824a95910238b032ec9
+    m_Address: device_1330109_Recycler
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 612f15e10a26e984bad3d18052d3f4d3
+    m_Address: device_1330110_BigDitto
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cb999c9ec88169429130cd8f510c784
+    m_Address: device_1330111_SmallDitto
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 078afb48f23a46a4e9a05f734a163aa0
+    m_Address: device_1330128_cactus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f6ff5df5c002e5488344525595f0037
+    m_Address: device_1330112_Shooter_Balloon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13d9d8489796da54eb7cb6ee379ff3e2
+    m_Address: device_1330113_Shooter_IronBall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e67a27f545c3f342a79859c8de9c46c
+    m_Address: device_120000008_fire_wheel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3affa289c14b48459ac2409063ec8ed
+    m_Address: device_1320113_huge_ballista
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edbba8e1775f48e4d85aa3c05d15ee31
+    m_Address: device_1320111_machine_gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c423cc009d73f041a1a0970a6cbb1c4
+    m_Address: device_1311801_short_harpoon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2289968e17de8f41a7529000d64c029
+    m_Address: device_1211801_wheel_lifebuoy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4126b15931fb8c459c928e9c46b4993
+    m_Address: device_1361801_long_harpoon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ef6365df13037b41b0528a194e8fa6a
+    m_Address: device_1311802_tentacle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 073df64cdc1ddb240b38063e81d9e9fa
+    m_Address: device_1351801_harpoon_gun
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e67ba381f47053e47b108f048d347ad3
+    m_Address: device_1331801_tesla
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2d5c0deea00e5b4bbbbbd242c28afec
+    m_Address: device_1310105_inflatable_stick
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de2051bc97332a4aa889c4d3d1cdfb7
+    m_Address: DPanel_Melee_Inflatable_Stick_Lv0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7854b9159f8388d4f9e26212c255deee
+    m_Address: DPanel_Melee_Inflatable_Stick_Lv1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d68252e993e9ae478d42ea7f1e15219
+    m_Address: DPanel_Melee_Inflatable_Stick
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02b147f9c7ce7454796e24d8962072f6
+    m_Address: device_1310106_circlesaw
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e96e47bb93eac2f46aa25460fbe875f6
+    m_Address: device_1310107_double_edged_cutter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25df761e49a623439e09c92aa01b982
+    m_Address: device_1330101_solid_rocket
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eddb154ee1bdc234388e393e82ecf9c8
+    m_Address: device_1330106_car_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 04652a353a5a29c44b40ce632ba6dfbf, type: 2}
+    - {fileID: 11400000, guid: 01fe01a5fd53ea04bb7cd5dcc783f9c0, type: 2}

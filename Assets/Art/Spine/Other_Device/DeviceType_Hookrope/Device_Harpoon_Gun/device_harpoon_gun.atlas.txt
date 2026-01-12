@@ -1,0 +1,16 @@
+device_harpoon_gun.png
+size:256,256
+filter:Linear,Linear
+pma:true
+chain
+bounds:2,84,4,120
+offsets:5,0,14,121
+device_harpoon_gun_1
+bounds:214,190,64,40
+rotate:90
+device_harpoon_gun_2
+bounds:124,222,88,32
+device_harpoon_gun_bullet
+bounds:2,206,120,48
+device_harpoon_gun_bullet2
+bounds:8,192,64,12

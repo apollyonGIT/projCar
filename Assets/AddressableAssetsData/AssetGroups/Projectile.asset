@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Projectile
+  m_EditorClassIdentifier: 
+  m_GroupName: Projectile
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f7fce0d32bc9a1540b3bb80f99eab767
+  m_SerializeEntries:
+  - m_GUID: f13327624f035e242bee370170173b4e
+    m_Address: pjp_10001_arrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84fac4d31e012144c892cb3b6381c95a
+    m_Address: pjp_10002_bullet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2526ee7ebf97ead4e852ae45de2054fb
+    m_Address: pjp_10004_rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e4494f1dfd7cd147b2947239534ee28
+    m_Address: pjp_10003_shotgun_iron_sand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25b8a900084ed494f91ccb8ccb997242
+    m_Address: pjp_10006_rocket_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b4cb7e864091024aa1c1304a43ef694
+    m_Address: pjp_10007_homemade_rocket_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62b2f8a3dff0a0049855cede593a4270
+    m_Address: pjp_20101_dungeon_javelin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81f3a7b708929a84f85af2beddfc44d9
+    m_Address: pjp_10005_volley_gun_bullet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e32ac97b93c1ca04391a2614ba8d0cd7
+    m_Address: pjp_20102_dungeon_stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebc004de42198f845aaa3ab4f6f1995f
+    m_Address: pjp_20103_dungeon_molotov
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69f655ac56f00c743897ee6f1e0ada29
+    m_Address: pjp_20104_dungeon_fire_javelin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eda3ec62caea5c64dbbfa735b03ac480
+    m_Address: pjp_10008_needle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af005fdfbf16ee4eb75797d172c7b92
+    m_Address: dpj_3001_special_blackhole
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7752c79656cfadb44b6a051a138e0eef
+    m_Address: pjp_10010_log_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdf23d60ccf329c4cb6e6a33b401cd08
+    m_Address: pjp_10010_log_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bfc10ed3efb8acc4f9cb25b77356ebf7
+    m_Address: pjp_10010_log_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8668904b06a86af48a1e929df1360fc7
+    m_Address: 'pjp_10009_giant_colt '
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df13f19ad68f39f40b6fbf98ce669f26
+    m_Address: pjp_20801_lake_catfish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 477566771364a3c4995632d908396095
+    m_Address: pjp_20802_lake_swamp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39a9518f71872904eb5329c6f4c77e4a
+    m_Address: pjp_20803_lake_squid
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a6c5601a21ca6f40abd79a9cecfaeba
+    m_Address: pjp_20804_lake_fly_noodle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2edbdeeb3c657494983a1efd9fcd6b1e
+    m_Address: pjp_20701_desert_cactus_needle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e4ad0248fe9ff4795dfd6a90ed1b11
+    m_Address: pjp_30001_hail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8b7ac1502c99d94b994a699ab003678
+    m_Address: pjp_10011_gatlin_bullet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 61f240a92e58fe64195e758a06d59eae, type: 2}
+    - {fileID: 11400000, guid: 2e01d8a672f06d24fbbec4d407c7901e, type: 2}

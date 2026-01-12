@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Encounter_Prefab
+  m_EditorClassIdentifier: 
+  m_GroupName: Encounter_Prefab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c5c43a28e23d46b43a030a85e421565a
+  m_SerializeEntries:
+  - m_GUID: 834cd751aad2cb2429ea5829f1a30663
+    m_Address: esar_45031_altar_blessing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2870ba89261456459aeabcf6781961a
+    m_Address: esar_45001_wooden_box_coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef984339847d17141b6adb573bc3e172
+    m_Address: esar_45003_wooden_box_wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcb6c034fc4f1af4bbf9b9113f0c926d
+    m_Address: esar_45002_wooden_box_food
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e9d5c1b10625804e9248f893227fe36
+    m_Address: esar_45004_wooden_box_weapon_parts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c1e8387719eae4c8747d3f6aed7f05
+    m_Address: esar_45041_traveller_cook
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bfc8bf26c08a4d4aab61ce44b6cf141
+    m_Address: esar_45991_beacon_stele
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df1a3f243d4baa340bf34b243f129720
+    m_Address: esar_45011_stranded_traveler_item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 291c425377a70e140ad7526c9329e361
+    m_Address: esar_45043_traveller_hunter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94a393a7bafd0c4e8684549cb8dccb8
+    m_Address: esar_45061_collet_fruit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 097ad57ba1f9d9049a83fc26ac384883
+    m_Address: esar_45063_collet_stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e40eeaa1172b7f4dace4ee705c30dff
+    m_Address: esar_45045_traveller_peasant
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30e6c92fec76a4945a6bc765648db26b
+    m_Address: esar_45064_collet_ore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f145c24045aa1b84d9d6c9098ad3c09e
+    m_Address: esar_45065_collet_fiber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22091008306f494792e6ad3ce755a33
+    m_Address: esar_45062_collet_timber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b015197e6a58307439619f9ee501af42
+    m_Address: esar_45992_beacon_camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 86068976ed838e9468a275b262d59611, type: 2}
+    - {fileID: 11400000, guid: 9ff90932cd8297c4abf2cbd50ebf3183, type: 2}

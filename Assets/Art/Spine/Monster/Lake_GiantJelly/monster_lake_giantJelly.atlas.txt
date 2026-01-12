@@ -1,0 +1,10 @@
+monster_lake_giantJelly.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Monster_Lake_GiantJelly_1
+bounds:168,156,20,32
+Monster_Lake_GiantJelly_2
+bounds:2,116,164,72
+Monster_Lake_GiantJelly_Brain
+bounds:2,78,48,36

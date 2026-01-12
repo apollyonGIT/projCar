@@ -1,0 +1,8 @@
+device_blade.png
+size:256,256
+filter:Linear,Linear
+pma:true
+device_blade_base
+bounds:2,116,84,40
+图层 83 拷贝
+bounds:2,158,192,36

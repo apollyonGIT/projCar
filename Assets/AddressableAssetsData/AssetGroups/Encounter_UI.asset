@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Encounter_UI
+  m_EditorClassIdentifier: 
+  m_GroupName: Encounter_UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 24f3f08b67f27984198ea3dc8f3520bd
+  m_SerializeEntries:
+  - m_GUID: bcfd54944dc479241b8e9193d88039fd
+    m_Address: Dialog_Window
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c715a9e5a0317b44984a67f945917483
+    m_Address: Dialog_Window_To_RelicStore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b096ca0ab59a4442bd797b53b9c26de
+    m_Address: Dialog_Window_To_DeviceShop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3fed783066bb8524fb615600b068760c, type: 2}
+    - {fileID: 11400000, guid: c9d654c7c7a3250418b8c6b45d1195f8, type: 2}

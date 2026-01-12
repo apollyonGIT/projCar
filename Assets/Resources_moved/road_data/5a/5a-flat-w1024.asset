@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fabfd113972d5428096e23b15abc2d, type: 3}
+  m_Name: 5a-flat-w1024
+  m_EditorClassIdentifier: 
+  points:
+  - position: {x: 0, y: 0}
+    left_position: {x: -5.0000105, y: 0}
+    right_position: {x: 0.90566665, y: 0}
+  - position: {x: 2.717, y: 0.197}
+    left_position: {x: 1.8113333, y: 0.32200003}
+    right_position: {x: 3.5626667, y: 0.08028126}
+  - position: {x: 5.254, y: 0.065}
+    left_position: {x: 4.4083333, y: -0.022431731}
+    right_position: {x: 6.0856667, y: 0.15098417}
+  - position: {x: 7.749, y: 0.249}
+    left_position: {x: 6.9173336, y: 0.18900001}
+    right_position: {x: 8.579333, y: 0.3089037}
+  - position: {x: 10.24, y: 0}
+    left_position: {x: 9.409666, y: 0}
+    right_position: {x: 15.240003, y: 0}
+  road_sprite: {fileID: 21300000, guid: 539e5d7171b0dfe4e8237a6c264f0c66, type: 3}
+  road_sprite_position: {x: 0, y: 0}

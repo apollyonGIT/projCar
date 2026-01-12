@@ -1,0 +1,10 @@
+monster_lake_explodeJelly.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Monster_Lake_ExplodeJelly_Angry_2
+bounds:2,154,120,100
+Monster_Lake_ExplodeJelly_Normal_1
+bounds:2,2,40,88
+Monster_Lake_ExplodeJelly_Normal_2
+bounds:2,92,116,60

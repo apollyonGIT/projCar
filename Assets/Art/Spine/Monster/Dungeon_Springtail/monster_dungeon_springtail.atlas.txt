@@ -1,0 +1,16 @@
+monster_dungeon_springtail.png
+size:128,128
+filter:Linear,Linear
+pma:true
+springtail_body
+bounds:2,78,76,48
+offsets:1,1,78,50
+springtail_legs
+bounds:34,26,50,30
+rotate:90
+springtail_mouth
+bounds:80,102,28,24
+offsets:1,1,30,26
+springtail_tail
+bounds:2,2,74,30
+rotate:90

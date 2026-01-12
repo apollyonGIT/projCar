@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Icons_Work
+  m_EditorClassIdentifier: 
+  m_GroupName: Icons_Work
+  m_Data:
+    m_SerializedData: []
+  m_GUID: aaa74bc4cd19f1f4da6213bd11e138ad
+  m_SerializeEntries:
+  - m_GUID: bb850ce58de1ddd4a88df371c1ead2f5
+    m_Address: ui_battle_work_icon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d56d344c98f4cd4ea7fea984b1a8ad2
+    m_Address: ui_battle_work_icon_npc
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e4e31311034c9fd4c8541da2dbccb4bd, type: 2}
+    - {fileID: 11400000, guid: 66251a3999da30c4ca516aecc8770332, type: 2}

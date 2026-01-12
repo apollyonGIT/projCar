@@ -1,0 +1,7 @@
+device_executioner_baton.png
+size:256,256
+filter:Linear,Linear
+pma:true
+stick
+bounds:2,80,126,48
+offsets:1,1,128,50

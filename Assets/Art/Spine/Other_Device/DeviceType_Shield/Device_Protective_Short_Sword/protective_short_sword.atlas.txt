@@ -1,0 +1,13 @@
+protective_short_sword.png
+size:106,94
+filter:Linear,Linear
+pma:true
+light
+bounds:2,2,52,62
+offsets:1,1,54,64
+rotate:90
+protective_short_sword
+bounds:2,56,96,36
+turn_2
+bounds:66,14,40,38
+rotate:90

@@ -1,0 +1,8 @@
+monster_desert_tumbleweed_large.png
+size:154,120
+filter:Linear,Linear
+pma:true
+monster_desert_tumbleweed_large_body
+bounds:2,2,128,116
+monster_desert_tumbleweed_large_eye_1
+bounds:132,98,20,20

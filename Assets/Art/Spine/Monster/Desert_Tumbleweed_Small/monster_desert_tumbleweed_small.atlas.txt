@@ -1,0 +1,6 @@
+monster_desert_tumbleweed_small.png
+size:60,60
+filter:Linear,Linear
+pma:true
+monster_desert_tumbleweed_small
+bounds:2,2,56,56

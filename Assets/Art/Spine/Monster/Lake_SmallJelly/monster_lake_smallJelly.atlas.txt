@@ -1,0 +1,8 @@
+monster_lake_smallJelly.png
+size:128,128
+filter:Linear,Linear
+pma:true
+Monster_Lake_SmallJelly_1
+bounds:2,2,4,68
+Monster_Lake_SmallJelly_2
+bounds:8,38,40,32

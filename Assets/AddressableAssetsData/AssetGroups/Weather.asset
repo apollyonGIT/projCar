@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Weather
+  m_EditorClassIdentifier: 
+  m_GroupName: Weather
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 585d5d201300ee34a817f944a8e52513
+  m_SerializeEntries:
+  - m_GUID: c19ac70ba300d95449e4b381545a64a8
+    m_Address: weather_460802_lake_rain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efa66f19b1609104486551dddfb4c0fa
+    m_Address: weather_460801_lake_dark_clouds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dc5bf5782a803e48a5502c53e5ccf62
+    m_Address: weather_460803_lake_storm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ed48e3728e96134598cf9c9463eaea3
+    m_Address: weather_460804_lake_thunderstorm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a3bd49aa3b7ee42a7a58a551891742
+    m_Address: weather_blackfog_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abe205641d9d6ef4ca43a98170913f46
+    m_Address: weather_whitefog_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 740f1983c73dca5458a4663752874e37
+    m_Address: weather_yaofog_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 793f5f3e1a8e8be4e820cde11fe8a102
+    m_Address: weather_litfog_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69e92e4ae091b604da8636e1a30129d6
+    m_Address: weather_460401_treetop_mist
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 856be4ae9a2a63f4e93279da8e3713ec
+    m_Address: weather_460402_treetop_fog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cf246d7ed0c88b4aaf7f76da709daec
+    m_Address: weather_460403_treetop_black_fog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 260a19b05c793cc478a4a58e7e4b951a
+    m_Address: weather_460404_treetop_thick_black_fog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68e4241ce64d6c845aa57dfaa14abe04
+    m_Address: weather_460701_desert_fugitive_dust
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b919bf0aac57604ea44ea58f2790d22
+    m_Address: weather_460702_desert_sand_storm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c6f202ea17d1a94f92dec595fda883f
+    m_Address: weather_460703_desert_quicksand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c594dfe429d63d41997233fe6ad333b
+    m_Address: weather_460704_desert_qs_and_fd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d12a3c71c322a3e43909c968cf89c374
+    m_Address: weather_460705_desert_qs_and_ss
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58147cc1c6802904282ce968b489c200
+    m_Address: weather_blackLitfog_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93707415e4a87e34186c6f822e75e7cb
+    m_Address: weather_sandnoise_heavy_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e16a1e8aa88bccd48ba6502b1ac19ed8
+    m_Address: weather_sandnoise_lit_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7548cd5f4c5842e449c886a4517c75e6
+    m_Address: weather_sandstorm_heavy_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dc31155019cf6542b37ae63549f2534
+    m_Address: weather_sandstorm_lit_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16e7874540c7268409570d70ba5e454c
+    m_Address: ui_icon_weather_0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00e2576f3c3182e44bebd5954626a2f2
+    m_Address: ui_icon_weather_460401
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 679091f31fc17004d949ab1693561ab3
+    m_Address: ui_icon_weather_460402
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f625d0876a2271c469848e5f0cd0eb4a
+    m_Address: ui_icon_weather_460403
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69f8f48e2f2994e4ab61a7c775e47807
+    m_Address: ui_icon_weather_460404
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dadc5ecf4c769a4d9fc2dd8bf730d22
+    m_Address: ui_icon_weather_460701
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21b65b354c16db94eba27d67225ea4d6
+    m_Address: ui_icon_weather_460702
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b46a7680feb44b044887b6f4c0f6e902
+    m_Address: ui_icon_weather_460703
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f5a69166ef308f48ac650fa0e94b0a8
+    m_Address: ui_icon_weather_460704
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e213bb8da34f39e42a51274a94648334
+    m_Address: ui_icon_weather_460705
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c300397853588440894df1d92ef60c3
+    m_Address: ui_icon_weather_460801
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f10610b970602fb469d5c34c2eee86a9
+    m_Address: ui_icon_weather_460802
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5368646faea86a74e817f63ed2519148
+    m_Address: ui_icon_weather_460803
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bf0fc1af36bd374fb2d15ce1abc14e4
+    m_Address: ui_icon_weather_460804
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c4ee7bcbbf015e64cb7f3a4c6ecfd6ca, type: 2}
+    - {fileID: 11400000, guid: 1fa9ad5c009048e46ae0d25dd4f25150, type: 2}

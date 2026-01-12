@@ -1,0 +1,16 @@
+monster_desert_stone_small.png
+size:256,256
+filter:Linear,Linear
+pma:true
+monster_desert_stone_small_arm_1
+bounds:80,110,40,44
+monster_desert_stone_small_arm_2
+bounds:2,2,40,44
+monster_desert_stone_small_body
+bounds:2,102,76,52
+monster_desert_stone_small_body2
+bounds:2,48,76,52
+monster_desert_stone_small_leg_1
+bounds:80,84,24,24
+monster_desert_stone_small_leg_2
+bounds:122,130,24,24

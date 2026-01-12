@@ -1,0 +1,17 @@
+device_rocket_bomb.png
+size:128,128
+filter:Linear,Linear
+pma:true
+rocket_bomb_frame
+bounds:2,26,60,100
+offsets:1,1,62,102
+rocket_bomb_leadwire
+bounds:2,8,4,16
+offsets:1,1,6,18
+rocket_bomb_main
+bounds:64,70,28,56
+offsets:1,1,30,58
+rocket_bomb_main_ignite
+bounds:94,82,44,32
+offsets:1,1,46,34
+rotate:90

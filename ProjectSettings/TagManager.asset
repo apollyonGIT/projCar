@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Caravan
+  - Device
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: LandScape
+    uniqueID: 1231069611
+    locked: 0
+  - name: Ammo
+    uniqueID: 1790358755
+    locked: 0
+  - name: Road
+    uniqueID: 3140822783
+    locked: 0
+  - name: Caravan
+    uniqueID: 3437507555
+    locked: 0
+  - name: Wheel
+    uniqueID: 3292535283
+    locked: 0
+  - name: Device
+    uniqueID: 411435099
+    locked: 0
+  - name: Enemy
+    uniqueID: 4230752831
+    locked: 0
+  - name: VFX
+    uniqueID: 3969103287
+    locked: 0
+  - name: Front_Landscape
+    uniqueID: 3212784201
+    locked: 0
+  - name: World_Ui
+    uniqueID: 535502681
+    locked: 0

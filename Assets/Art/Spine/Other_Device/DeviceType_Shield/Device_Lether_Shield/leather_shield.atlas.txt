@@ -1,0 +1,11 @@
+leather_shield.png
+size:112,86
+filter:Linear,Linear
+pma:true
+leather_shield
+bounds:2,56,28,108
+rotate:90
+light
+bounds:2,2,52,62
+offsets:1,1,54,64
+rotate:90

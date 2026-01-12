@@ -1,0 +1,20 @@
+{
+    "name": "WorldEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:38f0c23a910ffd34f957a2bb164fb929",
+        "GUID:8bc82ab3beae23a44928d859ed07c5b3",
+        "GUID:5044b757666a5a04bbfeb950bfc8d210",
+        "GUID:22f375839b1bb15429e2539c28b013f2",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

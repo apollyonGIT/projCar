@@ -1,0 +1,7 @@
+device_dagger.png
+size:128,128
+filter:Linear,Linear
+pma:true
+dagger
+bounds:2,38,64,28
+offsets:1,1,66,30

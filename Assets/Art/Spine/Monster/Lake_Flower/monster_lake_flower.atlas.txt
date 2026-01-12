@@ -1,0 +1,12 @@
+monster_lake_flower.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Monster_Lake_Flower_1
+bounds:2,48,48,148
+Monster_Lake_Flower_2
+bounds:52,68,48,128
+Monster_Lake_Flower_3
+bounds:2,2,32,44
+Monster_Lake_Flower_4
+bounds:102,172,24,24

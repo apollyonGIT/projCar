@@ -1,0 +1,11 @@
+monster_treetop_susu_a.png
+size:128,128
+filter:Linear,Linear
+pma:true
+images/monster_treetop_susu_a_body
+bounds:2,62,80,64
+images/monster_treetop_susu_a_head
+bounds:2,2,40,52
+rotate:90
+images/monster_treetop_susu_a_weapon
+bounds:2,44,92,16

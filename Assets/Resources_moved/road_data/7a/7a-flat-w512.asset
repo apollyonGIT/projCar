@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fabfd113972d5428096e23b15abc2d, type: 3}
+  m_Name: 7a-flat-w512
+  m_EditorClassIdentifier: 
+  points:
+  - position: {x: 0, y: 0}
+    left_position: {x: -5.0000515, y: 0}
+    right_position: {x: 0.5133333, y: 0}
+  - position: {x: 1.54, y: -0.109999895}
+    left_position: {x: 1.0266666, y: -0.04499793}
+    right_position: {x: 2.03, y: -0.17204714}
+  - position: {x: 3.01, y: -0.10800004}
+    left_position: {x: 2.52, y: -0.15299988}
+    right_position: {x: 3.7133334, y: -0.043408394}
+  - position: {x: 5.12, y: 0}
+    left_position: {x: 4.4166665, y: 0}
+    right_position: {x: 10.120001, y: 0}
+  road_sprite: {fileID: 21300000, guid: c9581a1f2d4e8cc4fb1d7dffcc146540, type: 3}
+  road_sprite_position: {x: 0, y: 0}

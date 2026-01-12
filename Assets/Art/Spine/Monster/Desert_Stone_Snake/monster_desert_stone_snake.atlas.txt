@@ -1,0 +1,10 @@
+monster_desert_stone_snake.png
+size:256,256
+filter:Linear,Linear
+pma:true
+monster_desert_stone_snake_body
+bounds:2,100,168,84
+monster_desert_stone_snake_head
+bounds:2,54,52,44
+monster_desert_stone_snake_tongue
+bounds:172,128,12,56

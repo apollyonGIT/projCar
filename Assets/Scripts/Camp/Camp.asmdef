@@ -1,0 +1,19 @@
+{
+    "name": "Camp",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5044b757666a5a04bbfeb950bfc8d210",
+        "GUID:22f375839b1bb15429e2539c28b013f2",
+        "GUID:8bc82ab3beae23a44928d859ed07c5b3",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

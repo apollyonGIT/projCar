@@ -1,0 +1,6 @@
+monster_treetop_slow_magic_projectile.png
+size:32,32
+filter:Linear,Linear
+pma:true
+monster_treetop_slow_magic_projectile
+bounds:2,2,24,24

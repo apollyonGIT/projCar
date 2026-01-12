@@ -1,0 +1,6 @@
+device_wheel_lifebuoy.png
+size:128,128
+filter:Linear,Linear
+pma:true
+device_wheel_lifebuoy_1
+bounds:2,2,108,108

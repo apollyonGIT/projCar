@@ -1,0 +1,10 @@
+monster_lake_swamp.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Monster_Lake_Swamp_1
+bounds:2,52,104,108
+Monster_Lake_Swamp_Face_1
+bounds:108,128,28,32
+Monster_Lake_Swamp_Face_2
+bounds:2,2,24,48

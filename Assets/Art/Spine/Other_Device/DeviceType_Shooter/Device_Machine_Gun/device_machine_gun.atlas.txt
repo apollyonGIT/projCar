@@ -1,0 +1,13 @@
+device_machine_gun.png
+size:256,256
+filter:Linear,Linear
+pma:true
+firegun_vfx
+bounds:2,58,48,64
+offsets:1,1,50,66
+machine_gun
+bounds:2,124,152,52
+machine_gun_bullet_1
+bounds:156,152,20,24
+machine_gun_bullet_2
+bounds:2,32,20,24

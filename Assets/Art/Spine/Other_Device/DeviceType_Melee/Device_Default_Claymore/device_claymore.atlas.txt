@@ -1,0 +1,7 @@
+device_claymore.png
+size:256,256
+filter:Linear,Linear
+pma:true
+claymore
+bounds:2,162,196,36
+offsets:1,1,198,38

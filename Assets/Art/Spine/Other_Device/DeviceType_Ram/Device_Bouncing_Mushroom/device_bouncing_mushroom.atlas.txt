@@ -1,0 +1,7 @@
+device_bouncing_mushroom.png
+size:62,42
+filter:Linear,Linear
+pma:true
+scale:0.5
+device_bouncing_mushroom
+bounds:2,2,58,38

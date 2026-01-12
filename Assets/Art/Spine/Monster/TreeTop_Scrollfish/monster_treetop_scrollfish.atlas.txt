@@ -1,0 +1,8 @@
+monster_treetop_scrollfish.png
+size:512,512
+filter:Linear,Linear
+pma:true
+images/monster_treetop_scrollfish_hbody
+bounds:2,218,276,60
+images/monster_treetop_scrollfish_wing
+bounds:2,200,40,16

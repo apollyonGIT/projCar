@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fabfd113972d5428096e23b15abc2d, type: 3}
+  m_Name: 8b-p48-w512
+  m_EditorClassIdentifier: 
+  points:
+  - position: {x: 0, y: 0}
+    left_position: {x: -5.0000105, y: 0}
+    right_position: {x: 0.38833332, y: 0}
+  - position: {x: 1.165, y: -0.006}
+    left_position: {x: 0.77666664, y: -0.02639389}
+    right_position: {x: 2.082, y: 0.04215765}
+  - position: {x: 3.916, y: 0.477}
+    left_position: {x: 2.9989998, y: 0.3959999}
+    right_position: {x: 4.317333, y: 0.5124507}
+  - position: {x: 5.12, y: 0.48}
+    left_position: {x: 4.7186666, y: 0.48000002}
+    right_position: {x: 10.12, y: 0.48000002}
+  road_sprite: {fileID: 21300000, guid: 4e0773a952003f043812e8f7002e64ad, type: 3}
+  road_sprite_position: {x: 0, y: 0}

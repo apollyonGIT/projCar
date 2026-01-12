@@ -1,0 +1,13 @@
+device_anti_riot_shotgun.png
+size:256,256
+filter:Linear,Linear
+pma:true
+anti_riot_shotgun_p1
+bounds:152,196,60,16
+offsets:1,1,62,18
+anti_riot_shotgun_p2
+bounds:2,160,148,52
+offsets:1,1,150,54
+anti_riot_shotgun_vfx
+bounds:2,70,52,88
+offsets:1,1,54,90

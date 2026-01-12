@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Icons_Device
+  m_EditorClassIdentifier: 
+  m_GroupName: Icons_Device
+  m_Data:
+    m_SerializedData: []
+  m_GUID: db3fc1f63b49b524f82a5728c06b8d3b
+  m_SerializeEntries:
+  - m_GUID: 63ab7975af78d6642a9e2d1ef9df2ffa
+    m_Address: dt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84fe9a45659d19e4aa64d0cc946cc841
+    m_Address: dwt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbecb38bf45590f4abe93ed51a94a87d
+    m_Address: ui_device_nametag_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b5941f1a026bf4abfb6820132a7a8e
+    m_Address: ui_device_nametag_car
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c58d575b18129a4a97b444b31bc2894
+    m_Address: ui_device_nametag_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f30efd3d08548f4891d6ec9d6aef722
+    m_Address: ui_device_nametag_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67441bbf25fe04d439b51bf0ab9ba591
+    m_Address: ui_device_nametag_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf1dca073b5c611449a8fe7e13061f5f
+    m_Address: ui_device_shop_shopboard_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef191deba58fc8d47978050287d46667
+    m_Address: ui_device_shop_shopboard_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41cc87f326d61b249a233b7036d0dd55
+    m_Address: ui_device_shop_shopboard_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e3adfe91ed741e458e5f048c1c5a310
+    m_Address: ui_device_shop_shopboard_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5afda17d2d23432439eba21073f52f81
+    m_Address: ui_battle_device_level_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f92a8793de1b93b4092f33ec349a6c44
+    m_Address: ui_battle_device_level_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cbed29ded4d59e40bbbc684794a7ab7
+    m_Address: ui_battle_device_level_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cedd66c51b4237e498122045521dd43c
+    m_Address: ui_battle_device_level_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b463d15d88d592844956a59c7ecee14f
+    m_Address: ui_battle_device_level_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb6462d434b814640855d8298985c42e
+    m_Address: ui_device_nametag_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b5b034a065c7464e9f942325ff73457
+    m_Address: ui_device_shop_shopboard_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c050d615a3df1174b8afcca5c77f5d5c
+    m_Address: ui_device_nametag_wheel_bag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6f457899558e2324aa5bc6e4c757c274, type: 2}
+    - {fileID: 11400000, guid: 3ec4837df769eeb478ff982bd362a72d, type: 2}

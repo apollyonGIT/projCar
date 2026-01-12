@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0ad22ae9111ee4bab8f66e24a5a950, type: 3}
+  m_Name: scene_road
+  m_EditorClassIdentifier: 
+  asset: {fileID: -4703995639882826628, guid: 01a23b407d0350f40b6ce78267d2ddc0, type: 3}

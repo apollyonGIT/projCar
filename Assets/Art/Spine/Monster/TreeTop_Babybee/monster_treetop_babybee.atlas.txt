@@ -1,0 +1,6 @@
+monster_treetop_babybee.png
+size:64,64
+filter:Linear,Linear
+pma:true
+monster_treetop_babybee_body
+bounds:2,2,28,36

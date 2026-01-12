@@ -1,0 +1,10 @@
+device_tentacle.png
+size:256,256
+filter:Linear,Linear
+pma:true
+device_tentacle_1
+bounds:44,64,52,40
+device_tentacle_2
+bounds:2,2,40,204
+device_tentacle_3
+bounds:44,106,120,100

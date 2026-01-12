@@ -1,0 +1,11 @@
+metal_plate.png
+size:208,56
+filter:Linear,Linear
+pma:true
+light
+bounds:144,2,52,62
+offsets:1,1,54,64
+rotate:90
+metal_plate
+bounds:2,26,28,140
+rotate:90

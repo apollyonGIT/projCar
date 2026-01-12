@@ -1,0 +1,10 @@
+monster_treetop_vaseghost100.png
+size:256,256
+filter:Linear,Linear
+pma:true
+monster_treetop_vaseghost/3
+bounds:60,218,34,30
+monster_treetop_vaseghost/monster_treetop_vaseghost_1
+bounds:2,2,40,116
+monster_treetop_vaseghost/monster_treetop_vaseghost_2
+bounds:2,120,56,128

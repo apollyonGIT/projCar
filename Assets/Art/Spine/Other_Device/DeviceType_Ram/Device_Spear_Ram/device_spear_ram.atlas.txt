@@ -1,0 +1,7 @@
+device_spear_ram.png
+size:98,38
+filter:Linear,Linear
+pma:true
+scale:0.5
+device_spear_ram
+bounds:2,2,94,34

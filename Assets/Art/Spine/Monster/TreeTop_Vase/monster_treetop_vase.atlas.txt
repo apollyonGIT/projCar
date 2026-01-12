@@ -1,0 +1,10 @@
+monster_treetop_vase.png
+size:256,256
+filter:Linear,Linear
+pma:true
+images/monster_treetop_vase_1
+bounds:80,180,52,40
+images/monster_treetop_vase_2
+bounds:2,2,48,112
+images/monster_treetop_vase_2 拷贝
+bounds:2,116,76,104

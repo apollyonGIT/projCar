@@ -1,0 +1,16 @@
+monster_treetop_squirrel.png
+size:128,128
+filter:Linear,Linear
+pma:true
+idle_state
+bounds:2,60,88,64
+monster_treetop_squirrel_body
+bounds:92,44,80,28
+rotate:90
+monster_treetop_squirrel_bullet
+bounds:102,22,20,20
+monster_treetop_squirrel_head
+bounds:64,6,36,36
+monster_treetop_squirrel_tail
+bounds:2,2,56,60
+rotate:90

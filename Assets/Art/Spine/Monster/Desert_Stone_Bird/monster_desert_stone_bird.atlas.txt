@@ -1,0 +1,16 @@
+monster_desert_stone_bird.png
+size:128,128
+filter:Linear,Linear
+pma:true
+images/monster_desert_stone_bird_body
+bounds:2,50,60,76
+images/monster_desert_stone_bird_face_1
+bounds:2,2,16,20
+rotate:90
+images/monster_desert_stone_bird_face_2
+bounds:64,82,28,44
+images/monster_desert_stone_bird_wing_1
+bounds:94,82,44,28
+rotate:90
+images/monster_desert_stone_bird_wing_2
+bounds:2,20,48,28

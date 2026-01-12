@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fabfd113972d5428096e23b15abc2d, type: 3}
+  m_Name: 2a-p88-w1024
+  m_EditorClassIdentifier: 
+  points:
+  - position: {x: 0, y: 0}
+    left_position: {x: -5.0000105, y: 0}
+    right_position: {x: 0.6090002, y: 0}
+  - position: {x: 1.827, y: 0}
+    left_position: {x: 1.2179995, y: 0}
+    right_position: {x: 2.2600002, y: 0}
+  - position: {x: 3.126, y: 0.134}
+    left_position: {x: 2.6929998, y: 0.069384135}
+    right_position: {x: 3.9033337, y: 0.25}
+  - position: {x: 5.458, y: 0.472}
+    left_position: {x: 4.680667, y: 0.3341154}
+    right_position: {x: 6.168333, y: 0.598}
+  - position: {x: 7.589, y: 0.784}
+    left_position: {x: 6.878667, y: 0.6606154}
+    right_position: {x: 7.9286666, y: 0.843}
+  - position: {x: 8.608, y: 0.892}
+    left_position: {x: 8.268333, y: 0.8967226}
+    right_position: {x: 9.152, y: 0.8844364}
+  - position: {x: 10.24, y: 0.88}
+    left_position: {x: 9.695999, y: 0.88}
+    right_position: {x: 15.240001, y: 0.88}
+  road_sprite: {fileID: 21300000, guid: 75d981fc12f7f894d978e08f7d185126, type: 3}
+  road_sprite_position: {x: 0, y: 0}

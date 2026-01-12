@@ -1,0 +1,14 @@
+carbody_lake_02.png
+size:512,512
+filter:Linear,Linear
+pma:true
+carbody_lake_01_1
+bounds:216,308,168,76
+carbody_lake_01_2
+bounds:2,28,88,92
+carbody_lake_02_1
+bounds:180,178,28,88
+carbody_lake_02_2
+bounds:2,268,212,116
+carbody_lake_02_3
+bounds:2,122,176,144

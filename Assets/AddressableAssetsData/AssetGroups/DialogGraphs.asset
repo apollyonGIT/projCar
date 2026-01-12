@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DialogGraphs
+  m_EditorClassIdentifier: 
+  m_GroupName: DialogGraphs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce61a14b24fbb8247b6de325a6db2dda
+  m_SerializeEntries:
+  - m_GUID: c44e77ad8297be945a2b16620531cb7c
+    m_Address: esdg_wooden_box_coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33da1d228e5b9ed4c86ab81b59cb9670
+    m_Address: esdg_wooden_box_food
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c25f62739e696649b075cf0307da188
+    m_Address: esdg_45004_wooden_box_weapon_parts
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 089339d9aa01c674995d60f108b66991
+    m_Address: esdg_wooden_box_wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4befee6c1579d1e43b4ab328ceaca328
+    m_Address: esdg_45031_altar_blessing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7f430304a8ddef469ce5c1ed70b7842
+    m_Address: esdg_45041_traveller_cook
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8f1b3354730182408271fdbb92df468
+    m_Address: esdg_45011_stranded_traveler_item
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6662e795ed2c133499e37c8ccb944bef
+    m_Address: esdg_45043_traveller_hunter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e03f07d474c0ca48b519ff3d61fde7c
+    m_Address: esdg_45045_traveller_peasant
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43b3b0310b1ea754185190d710a46583
+    m_Address: esdg_45061_collet_fruit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9108dfd675d542742bf73b35788170c1
+    m_Address: esdg_45062_collet_timber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 818d36bbea9392442af1556e3818cd2d
+    m_Address: esdg_45063_collet_stone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f93d964d4f2f1744bc5d4458389b816
+    m_Address: esdg_45064_collet_ore
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 470f60c69b1aed84f9017266c49f706a
+    m_Address: esdg_45065_collet_fiber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ef79d67856a9cf40bbe244cbe4caecf
+    m_Address: esdg_45991_beacon_stele
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a963e96fd3c478c46b21214946d1e0ea
+    m_Address: esdg_45992_beacon_camp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 842814a03850bad478d974f86b31d9e8
+    m_Address: edg_coin_15~25
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6514e012f5b4065468e7b9cc3290c09d
+    m_Address: edg_coin_15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a91f77b1581b142b14362aebaa66e4
+    m_Address: edg_coin_35~45
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5feb2729ab789d245b838011aa68b03a
+    m_Address: edg_coin_25~35
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22fe4b77ed3da8644acc23c046a1d26c
+    m_Address: edg_coin_45~55
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2da02962c2f4a46b078f405f730021
+    m_Address: edg_elite_coin_30
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad0fb5ffe0111434890ef64a93620dbe
+    m_Address: edg_elite_coin_45
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61b8d09b5b65a3547a76b1e7d44cf504
+    m_Address: edg_elite_coin_50
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a54f6737ee0544180e8a251e3337ba
+    m_Address: edg_elite_coin_55
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c629ddb515642234f879db664ec19e32
+    m_Address: edg_elite_coin_60
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5161a735b200d4d45a1b7a78cde3e03a
+    m_Address: edg_elite_coin_75
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8edd4bd303d35d641acb63e1a756ade4
+    m_Address: edg_elite_coin_80
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad1b7030eb70a1443b47fb79e0daabca
+    m_Address: edg_elite_coin_85
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0437b7005654524c94443a00c069501
+    m_Address: edg_elite_coin_90
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6f513a42d9777e43a29f1138353fd22
+    m_Address: edg_elite_coin_105
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2217a046fbf69145985855229189c00
+    m_Address: edg_elite_coin_110
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 117fa3d57d4866d4e9aaaf565c405835, type: 2}
+    - {fileID: 11400000, guid: 2f0ebaedf0326544495e93cb398a1a9b, type: 2}

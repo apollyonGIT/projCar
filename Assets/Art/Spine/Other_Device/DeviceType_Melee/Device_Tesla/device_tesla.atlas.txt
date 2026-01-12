@@ -1,0 +1,49 @@
+device_tesla.png
+size:154,396
+filter:Linear,Linear
+pma:true
+scale:0.5
+device_tesla
+bounds:2,52,30,68
+rotate:90
+时间轴 1_0001
+bounds:78,60,70,62
+offsets:20,22,100,100
+时间轴 1_0002
+bounds:72,10,62,48
+offsets:20,38,100,100
+时间轴 1_0003
+bounds:86,274,66,46
+offsets:20,40,100,100
+时间轴 1_0004
+bounds:86,322,66,72
+offsets:18,20,100,100
+时间轴 1_0005
+bounds:2,236,76,82
+offsets:10,18,100,100
+rotate:90
+时间轴 1_0006
+bounds:2,314,82,80
+offsets:8,20,100,100
+时间轴 1_0007
+bounds:82,124,70,74
+offsets:14,26,100,100
+时间轴 1_0008
+bounds:86,200,64,72
+offsets:18,18,100,100
+时间轴 1_0009
+bounds:2,134,52,76
+offsets:24,16,100,100
+rotate:90
+时间轴 1_0010
+bounds:2,188,46,78
+offsets:32,16,100,100
+rotate:90
+时间轴 1_0011
+bounds:2,84,48,74
+offsets:32,22,100,100
+rotate:90
+时间轴 1_0012
+bounds:2,2,48,62
+offsets:30,36,100,100
+rotate:90

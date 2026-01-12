@@ -1,0 +1,16 @@
+monster_lake_goldfish.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Monster_Lake_Goldfish_Face_0
+bounds:2,68,88,64
+Monster_Lake_Goldfish_Face_1
+bounds:2,46,52,20
+Monster_Lake_Goldfish_Face_2
+bounds:104,158,52,36
+Monster_Lake_Goldfish_Fins_1
+bounds:158,166,36,28
+Monster_Lake_Goldfish_Fins_2
+bounds:2,16,36,28
+Monster_Lake_Goldfish_Tail
+bounds:2,134,100,60

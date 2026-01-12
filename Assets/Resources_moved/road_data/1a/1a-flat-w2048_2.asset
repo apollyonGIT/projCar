@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fabfd113972d5428096e23b15abc2d, type: 3}
+  m_Name: 1a-flat-w2048_2
+  m_EditorClassIdentifier: 
+  points:
+  - position: {x: 0, y: 0}
+    left_position: {x: -5.000001, y: 0}
+    right_position: {x: 1.0170001, y: 0}
+  - position: {x: 3.051, y: -0.019}
+    left_position: {x: 2.0340002, y: 0.04808435}
+    right_position: {x: 3.7813334, y: -0.06717496}
+  - position: {x: 5.242, y: 0.033}
+    left_position: {x: 4.511667, y: -0.103344224}
+    right_position: {x: 5.6113334, y: 0.10194997}
+  - position: {x: 6.35, y: 0.169}
+    left_position: {x: 5.9806666, y: 0.14185463}
+    right_position: {x: 6.9886665, y: 0.21594092}
+  - position: {x: 8.266, y: 0.059}
+    left_position: {x: 7.627333, y: 0.11065109}
+    right_position: {x: 9.341333, y: -0.027965799}
+  - position: {x: 11.492, y: 0.012}
+    left_position: {x: 10.416666, y: 0.012}
+    right_position: {x: 11.821667, y: 0.012}
+  - position: {x: 12.481, y: 0.049}
+    left_position: {x: 12.151333, y: -0.0098854825}
+    right_position: {x: 12.953, y: 0.13330916}
+  - position: {x: 13.897, y: 0.045}
+    left_position: {x: 13.425, y: 0.043889612}
+    right_position: {x: 14.572333, y: 0.046588738}
+  - position: {x: 15.923, y: 0.007}
+    left_position: {x: 15.247667, y: -0.0033235587}
+    right_position: {x: 16.417334, y: 0.0145566845}
+  - position: {x: 17.406, y: 0.068}
+    left_position: {x: 16.911667, y: -0.010999933}
+    right_position: {x: 18.076334, y: 0.17512679}
+  - position: {x: 19.417, y: 0.075}
+    left_position: {x: 18.746666, y: 0.2464079}
+    right_position: {x: 19.771334, y: -0.015605032}
+  - position: {x: 20.48, y: 0}
+    left_position: {x: 20.125666, y: 0}
+    right_position: {x: 25.48, y: 0}
+  road_sprite: {fileID: 21300000, guid: 8a02e1fe7fd76d74a90c171c44c9f8de, type: 3}
+  road_sprite_position: {x: 0, y: 0}

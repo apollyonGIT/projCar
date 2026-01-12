@@ -1,0 +1,16 @@
+monster_lake_elite_goldfish_king.png
+size:512,512
+filter:Linear,Linear
+pma:true
+images/monster_lake_elite_gfish_king_face_1
+bounds:272,306,104,112
+images/monster_lake_elite_gfish_king_face_2
+bounds:2,2,92,108
+images/monster_lake_elite_gfish_king_face_3
+bounds:2,112,116,116
+images/monster_lake_elite_gfish_king_mouth_1
+bounds:120,188,24,40
+images/monster_lake_elite_gfish_king_mouth_2
+bounds:272,296,16,8
+images/monster_lake_elite_gfish_king_tail
+bounds:2,230,268,188

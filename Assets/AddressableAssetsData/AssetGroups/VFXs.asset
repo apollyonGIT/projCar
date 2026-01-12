@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: VFXs
+  m_EditorClassIdentifier: 
+  m_GroupName: VFXs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 921ee7f91c8bf784c97a2ed9829f5f50
+  m_SerializeEntries:
+  - m_GUID: 91c8901d3f2a0204291a2431af36c11d
+    m_Address: vfx_smoke_on_hit_ground_small
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83a5c88040229924dac08381b0681c4b
+    m_Address: vfx_smoke_on_hit_ground_large
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88337f06274376f4385b19d0f7b1e7b0
+    m_Address: vfx_monster_die_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f684432ee5f13624f88dcb33f14fdca0
+    m_Address: vfx_monster_die_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72f536a2bafa2af4f814488c7bafa2ef
+    m_Address: vfx_monster_die_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01d7a8695eb8a374cbe703a439a1e63b
+    m_Address: vfx_monster_die_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15269bbd8e2541f4fac889b2ceee0750
+    m_Address: vfx_monster_die_explosion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6f2531c246633e43bb205b64cfbfcf4
+    m_Address: vfx_device_broken_explosion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acbea9b3196f99c42830e0d860ed4a8a
+    m_Address: smoke_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99843290adb5d174bb45b7b4bcab199b
+    m_Address: vfx_ammo_explode_10006_rocket_bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b966e17673d22bd44bc5837f17bb7491
+    m_Address: fire_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8dfe3b33acfe9348990cf1c174c4525
+    m_Address: vfx_ammo_explode_20103_dungeon_molotov
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0753d481d3b2f244ba5514035ec550e6
+    m_Address: vfx_monster_die_explode1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 326f058a5856d844894138009715312f
+    m_Address: buff_acid_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367add844d6bd3e4fbb0fd6c3bdc6a56
+    m_Address: buff_bind_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13aaf979362a82d4fbc18b0200831c13
+    m_Address: buff_stupor_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0128b3b3af9bf1489dd8272f124b8c7
+    m_Address: buff_fire_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9367f2cb632ad947b892d5643a4c1a5
+    m_Address: weather_rain_base_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd8ea348022a70d43a8ee25c318822ed
+    m_Address: weather_splash_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b3a1e289c4950a40883fa74b0a3133b
+    m_Address: weather_rain_window_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e2a9e65b829ed49ba72733cd63fb78
+    m_Address: weather_rain_heavy_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec9a48745d7914745834a6f102a6a8f9
+    m_Address: weather_rain_mid_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be692073ee715814c9a30b543b261e48
+    m_Address: weather_rainfog_base_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a39744335678f3948b8430b2bd79aff0
+    m_Address: weather_rainfog_heavy_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a799bc181957e547bb7416a9e2aa564
+    m_Address: weather_rainfog_mid_vfx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd2cca1a785914b4cb18c834ee988a6a
+    m_Address: vfx_weather_lightning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 82788fcdea99bc1479d21577250b5840, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 791f00267709bf7458b63ad442550fa6, type: 2}
+    - {fileID: 11400000, guid: 80cff8d375146b549be50c6d804f5012, type: 2}

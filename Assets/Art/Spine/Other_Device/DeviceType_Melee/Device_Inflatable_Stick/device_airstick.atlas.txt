@@ -1,0 +1,9 @@
+device_airstick.png
+size:256,256
+filter:Linear,Linear
+pma:true
+device_airstick
+bounds:2,8,116,176
+executioner_halberd
+bounds:120,48,136,64
+rotate:90

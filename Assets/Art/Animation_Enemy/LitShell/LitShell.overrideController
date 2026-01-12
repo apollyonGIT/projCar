@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LitShell
+  m_Controller: {fileID: 9100000, guid: 526f21c403aa0d04dbfc47ec03e3c535, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c005d8b4e336cfd4698fb26742e225ad, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6220f499eeabf29479bf4c79d9010a92, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8b84ab55d30b6814886348a0efabbf38, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 664ea68e4de91a1419cfe4995b25e419, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b685b2b27d3d04b4d863c31c9edcac5d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2c108ee9b42557e42a22b06564d97637, type: 2}
