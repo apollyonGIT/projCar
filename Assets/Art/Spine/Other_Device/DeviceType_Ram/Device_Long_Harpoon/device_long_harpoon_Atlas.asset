@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_long_harpoon_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: d8ec41f2b36a6534b9960afdcf1035ba, type: 3}
   materials:
   - {fileID: 2100000, guid: 873febaf33abc2b4c8c028bd93b1e14a, type: 2}

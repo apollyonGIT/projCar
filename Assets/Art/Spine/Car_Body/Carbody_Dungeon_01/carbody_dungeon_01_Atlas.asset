@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: carbody_dungeon_01_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: b0fbed09da6e210478535d865ee4635d, type: 3}
   materials:
   - {fileID: 2100000, guid: a35f59969bc3dc5458a5d46bc9196b8e, type: 2}

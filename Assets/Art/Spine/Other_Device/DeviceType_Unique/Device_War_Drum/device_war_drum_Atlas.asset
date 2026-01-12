@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_war_drum_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: b0fe5831671b11e488fba0b01962352d, type: 3}
   materials:
   - {fileID: 2100000, guid: 90526956103f8944087545bf4dc5d987, type: 2}

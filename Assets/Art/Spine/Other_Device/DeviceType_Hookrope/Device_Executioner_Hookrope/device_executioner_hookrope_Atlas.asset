@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_executioner_hookrope_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: b36526e4617dadb4f96ba453a818973f, type: 3}
   materials:
   - {fileID: 2100000, guid: 9f4ae4070025faa49aa26ad87b052ce8, type: 2}

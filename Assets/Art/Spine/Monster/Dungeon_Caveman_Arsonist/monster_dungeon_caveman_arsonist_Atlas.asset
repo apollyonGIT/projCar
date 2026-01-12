@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_dungeon_caveman_arsonist_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: a06001645c875fe459e92f9c4c7e25c0, type: 3}
   materials:
   - {fileID: 2100000, guid: 0bc68b75090a0a545a532f0cd573735e, type: 2}

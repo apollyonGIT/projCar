@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_lake_elite_goldfish_king_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: a87f1d2d01fc7e542b234fa318ed495e, type: 3}
   materials:
   - {fileID: 2100000, guid: ff1b3a2daac597041aeebd5fe8dee807, type: 2}

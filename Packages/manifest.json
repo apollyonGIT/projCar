@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.esotericsoftware.spine.spine-csharp": "http://192.168.1.7/yh/spine.git?path=spine-csharp/src",
-    "com.esotericsoftware.spine.spine-unity": "http://192.168.1.7/yh/spine.git?path=spine-unity/Assets/Spine",
-    "com.esotericsoftware.spine.urp-shaders": "http://192.168.1.7/yh/Spine.git?path=spine-unity/Modules/com.esotericsoftware.spine.urp-shaders",
+    "com.esotericsoftware.spine.spine-csharp": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-csharp/src#4.1",
+    "com.esotericsoftware.spine.spine-unity": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Assets/Spine#4.1",
+    "com.esotericsoftware.spine.urp-shaders": "https://github.com/EsotericSoftware/spine-runtimes.git?path=spine-unity/Modules/com.esotericsoftware.spine.urp-shaders#4.1",
     "com.unity.addressables": "1.21.21",
     "com.unity.collab-proxy": "2.5.2",
     "com.unity.entities": "1.3.5",

@@ -31,6 +31,7 @@ Material:
     m_Floats:
     - _BaseAlpha: 0.68
     - _BaseAlphaFade: 0
+    - _CarSpeedThredshold: 5.5
     - _Density: 2.5
     - _FadeDis: 0.08
     - _LineMaxHeight01: 0.06
@@ -40,7 +41,7 @@ Material:
     - _PixelizeY: 128
     - _Shift: -1.99
     - _Speed: 2.75
-    - _chase_enemy_num: 1
+    - _chase_enemy_num: 0
     m_Colors:
     - _Color: {r: 0.94509804, g: 0.16990271, b: 0.12156862, a: 0.56078434}
   m_BuildTextureStacks: []

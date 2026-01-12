@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_wheel_lifebuoy_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 16fd6c306d0cf4849bb9742674cc5125, type: 3}
   materials:
   - {fileID: 2100000, guid: bbef5e41b5fc9a34c9ac4d5219272039, type: 2}

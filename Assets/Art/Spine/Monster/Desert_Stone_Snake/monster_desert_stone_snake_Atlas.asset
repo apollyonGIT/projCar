@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_desert_stone_snake_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 50eabae9d265e9648aa619b49e43f69a, type: 3}
   materials:
   - {fileID: 2100000, guid: a94b9e2f6b39baa468bf04498ad7c9cf, type: 2}

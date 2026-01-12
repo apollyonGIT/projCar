@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_desert_guard_sword_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: e3330d6beaa9c6243a45405d3eccb61e, type: 3}
   materials:
   - {fileID: 2100000, guid: 802d5136744385048860b71818de078f, type: 2}

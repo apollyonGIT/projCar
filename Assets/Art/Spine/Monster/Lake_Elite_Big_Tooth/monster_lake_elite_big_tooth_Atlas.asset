@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_lake_elite_big_tooth_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 5b6e774ff5c074248837a449bfa5e0a3, type: 3}
   materials:
   - {fileID: 2100000, guid: bdad193a96b83f84883ab6e49617bfa9, type: 2}

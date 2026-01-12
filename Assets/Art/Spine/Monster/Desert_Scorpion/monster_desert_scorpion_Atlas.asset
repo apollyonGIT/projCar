@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_desert_scorpion_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: b315261c3dfabd94e9f765ec0f3fbd8c, type: 3}
   materials:
   - {fileID: 2100000, guid: 3d33b83641e2fc744b9070fdd0b66313, type: 2}

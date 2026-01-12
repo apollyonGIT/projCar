@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: carbody_lake_01_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 58b1dfb25f00c4c469f221a20bd7d030, type: 3}
   materials:
   - {fileID: 2100000, guid: 929029c423b42884e981fca79b1d3aae, type: 2}

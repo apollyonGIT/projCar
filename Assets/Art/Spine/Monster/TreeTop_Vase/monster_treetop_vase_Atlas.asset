@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_treetop_vase_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 5c25a1986afafab4ea7d50d41a0d9b5e, type: 3}
   materials:
   - {fileID: 2100000, guid: 26d7c8c0295847042b4aa8a572939d4a, type: 2}

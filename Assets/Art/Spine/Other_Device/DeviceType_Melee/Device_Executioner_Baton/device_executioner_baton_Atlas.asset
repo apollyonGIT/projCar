@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_executioner_baton_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: a7c1af5d5b0a5d842bdeb53a0aaea41c, type: 3}
   materials:
   - {fileID: 2100000, guid: ca01d39b0ed20b847b39402cfc4b1048, type: 2}

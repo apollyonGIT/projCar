@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_lake_flower_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: c40b3b03115021c48b6377fa8832903a, type: 3}
   materials:
   - {fileID: 2100000, guid: fb4a0abd7a8251d41b1107095eabe211, type: 2}

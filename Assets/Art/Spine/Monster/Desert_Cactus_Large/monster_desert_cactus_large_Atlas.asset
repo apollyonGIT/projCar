@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_desert_cactus_large_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: c6b86e892986ce1469bb09b9b1169d31, type: 3}
   materials:
   - {fileID: 2100000, guid: d31878d3bacb65e48a3fb2754b5aa0b8, type: 2}

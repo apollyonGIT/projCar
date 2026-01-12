@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: wheel_wooden_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: ddde9d3b15a5898438bc4fb2cba98482, type: 3}
   materials:
   - {fileID: 2100000, guid: 829f8d6ede023e04292844fbac809615, type: 2}

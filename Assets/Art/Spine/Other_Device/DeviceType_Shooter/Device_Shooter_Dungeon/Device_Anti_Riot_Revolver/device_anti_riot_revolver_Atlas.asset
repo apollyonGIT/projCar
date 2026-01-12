@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: device_anti_riot_revolver_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 21db7f90168548348ae4c27174f6ba72, type: 3}
   materials:
   - {fileID: 2100000, guid: 127b4c1956e3f1a4dbb3b0b25ec94477, type: 2}

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_treetop_slow_magic_projectile_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 3af769137b19eb247b96e571fa44c5e7, type: 3}
   materials:
   - {fileID: 2100000, guid: eed732dddc594d24fb9ceb767d67e2f5, type: 2}

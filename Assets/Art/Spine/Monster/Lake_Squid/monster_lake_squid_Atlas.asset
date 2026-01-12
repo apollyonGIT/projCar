@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_lake_squid_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 8d83ce56e1e9c17478a2e2b89b8c2bfb, type: 3}
   materials:
   - {fileID: 2100000, guid: 9318a60dfe68e0749af6c1cd5fe89e78, type: 2}

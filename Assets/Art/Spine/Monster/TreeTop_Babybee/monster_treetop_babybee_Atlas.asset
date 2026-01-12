@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: monster_treetop_babybee_Atlas
   m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
   atlasFile: {fileID: 4900000, guid: 46d4c283d2df6884e927f7954e117d82, type: 3}
   materials:
   - {fileID: 2100000, guid: 01e0e1f5970613a48ad0556d53017de6, type: 2}
