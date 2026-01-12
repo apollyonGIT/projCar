@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
+  animator: {fileID: 250974753177125448}
   pre_aim: {fileID: 7284253001650510707}
   aim: {fileID: 8012455589907813583}
   outrange_aim: {fileID: 8986155149754256970}

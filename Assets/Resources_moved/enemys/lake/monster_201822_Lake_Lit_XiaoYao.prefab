@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 250974753177125448, guid: 331069fffb4787e48807631d11d27d69, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 01866883b479cf24fac90985c1113faa, type: 2}
     - target: {fileID: 4090085029481898366, guid: 331069fffb4787e48807631d11d27d69, type: 3}
       propertyPath: m_Name
       value: monster_201822_Lake_Lit_XiaoYao

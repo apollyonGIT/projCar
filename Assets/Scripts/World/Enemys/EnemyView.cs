@@ -14,6 +14,8 @@ namespace World.Enemys
         public SkeletonAnimation anim;
         Renderer m_anim_renderer;
 
+        public Animator animator;
+
         public Enemy owner;
         public Action tick1_outter;
 
@@ -81,6 +83,16 @@ namespace World.Enemys
                 var _localScale = transform.localScale;
                 _localScale.x *= owner.view_pic_scaleX;
                 transform.localScale = _localScale;
+            }
+
+            if (animator != null)
+            {
+                var anim_info = owner.anim_info;
+                if (anim_info != null)
+                {
+                    var anim_name = (string)anim_info["anim_name"];
+                    animator.SetTrigger(anim_name);
+                }
             }
 
             tick1_outter?.Invoke();
