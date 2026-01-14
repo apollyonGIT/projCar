@@ -517,6 +517,8 @@ namespace Foundations.Excels
             var str = (string)obj;
             Dictionary<string, int> ret = new();
 
+            if (string.IsNullOrEmpty(str)) return new();
+
             var strs = str.Split(';');
             foreach (var items in strs)
             {
@@ -537,6 +539,8 @@ namespace Foundations.Excels
 
             var str = (string)obj;
             Dictionary<string, float> ret = new();
+
+            if (string.IsNullOrEmpty(str)) return new();
 
             var strs = str.Split(';');
             foreach (var items in strs)
@@ -559,6 +563,8 @@ namespace Foundations.Excels
             var str = (string)obj;
             Dictionary<uint, float> ret = new();
 
+            if (string.IsNullOrEmpty(str)) return new();
+
             var strs = str.Split(';');
             foreach (var items in strs)
             {
@@ -579,6 +585,8 @@ namespace Foundations.Excels
 
             var str = (string)obj;
             Dictionary<uint, int> ret = new();
+
+            if (string.IsNullOrEmpty(str)) return new();
 
             var strs = str.Split(';');
             foreach (var items in strs)
@@ -601,6 +609,8 @@ namespace Foundations.Excels
             var str = (string)obj;
             Dictionary<int, int> ret = new();
 
+            if (string.IsNullOrEmpty(str)) return new();
+
             var strs = str.Split(';');
             foreach (var items in strs)
             {
@@ -621,6 +631,8 @@ namespace Foundations.Excels
 
             var str = (string)obj;
             Dictionary<string, string> ret = new();
+
+            if (string.IsNullOrEmpty(str)) return new();
 
             var strs = str.Split(';');
             foreach (var items in strs)
