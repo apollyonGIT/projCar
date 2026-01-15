@@ -1,18 +1,19 @@
-﻿using Foundations.Tickers;
+﻿using Commons;
+using Foundations.Tickers;
 using UnityEngine;
 using World.Helpers;
-using static World.Enemys.BT.BT_Common_FlyShoot;
+using static World.Enemys.BT.BT_Common_JumpShoot;
 
 namespace World.Enemys.BT
 {
-    public class BT_Common_FlyShoot : Enemy_BT, IEnemy_BT_FlyAround, IEnemy_BT_FlyFollow, IEnemy_BT_Attack_Delay<EN_FSM>, IEnemy_BT_Shoot
+    public class BT_Common_JumpShoot : Enemy_BT, IEnemy_BT_Jump, IEnemy_BT_Attack_Delay<EN_FSM>, IEnemy_BT_Shoot
     {
         #region FSM
         public enum EN_FSM
         {
             Default,
-            Chase,
-            Hover,
+            Idle,
+            Jump,
             Attack,
             AttackAfter
         }
@@ -21,37 +22,20 @@ namespace World.Enemys.BT
         public override string state => $"{m_state}";
         #endregion
 
-        #region FlyAround
-        Vector2 IEnemy_BT_FlyAround.flyAround_deg => e_flyAround_deg;
+        #region PRM
+        float e_jump_cd;
+        int m_jump_cd;
 
-        Vector2 IEnemy_BT_FlyAround.flyAround_radius => e_flyAround_radius;
-
-        
-
-        Vector2 IEnemy_BT_FlyAround.flyAround_pos { get => m_flyAround_pos; set => m_flyAround_pos = value; }
-        Vector2 m_flyAround_pos;
-
-        int IEnemy_BT_FlyAround.flyAround_count { get => m_flyAround_count; set => m_flyAround_count = value; }
-        int m_flyAround_count;
-
-        IEnemy_BT_FlyAround i_flyAround => this;
-
-        Vector2 e_flyAround_deg;
-        Vector2 e_flyAround_radius;
-        
-
-        int e_flyAround_count_max;
-        int e_flyAround_count_min;
-        int m_flyAround_count_limit;
+        float e_atk_dis;
         #endregion
 
-        #region FlyFollow
-        bool m_is_refresh_follow_pos;
+        #region JUMP
+        float IEnemy_BT_Jump.jump_velocity_x_max => e_jump_velocity_x_max;
+        float e_jump_velocity_x_max;
+        Vector2 IEnemy_BT_Jump.jump_height_area => e_jump_height_area;
+        Vector2 e_jump_height_area;
 
-        Vector2 IEnemy_BT_FlyFollow.flyFollow_pos => m_flyFollow_pos;
-        Vector2 m_flyFollow_pos;
-
-        IEnemy_BT_FlyFollow i_flyFollow => this;
+        IEnemy_BT_Jump i_jump => this;
         #endregion
 
         #region Attack_Delay
@@ -62,7 +46,7 @@ namespace World.Enemys.BT
         float IEnemy_BT_Attack_Delay<EN_FSM>.after_attack_sec => e_after_attack_sec;
 
         EN_FSM IEnemy_BT_Attack_Delay<EN_FSM>.state { get => m_state; set => m_state = value; }
-        EN_FSM IEnemy_BT_Attack_Delay<EN_FSM>.charge_next_state => EN_FSM.Chase;
+        EN_FSM IEnemy_BT_Attack_Delay<EN_FSM>.charge_next_state => EN_FSM.Idle;
 
         IEnemy_BT_Attack_Delay<EN_FSM> i_attack_delay => this;
         #endregion
@@ -87,11 +71,11 @@ namespace World.Enemys.BT
         public override void init(Enemy cell, params object[] prms)
         {
             #region 读表参数
-            e_flyAround_deg = Enemy_BT_Core_CPN.read_diy_prm_to_vec2(cell, "FLYAROUND_DEG");
-            e_flyAround_radius = Enemy_BT_Core_CPN.read_diy_prm_to_vec2(cell, "FLYAROUND_RADIUS");
+            e_jump_cd = float.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "JUMP_CD"));
+            e_atk_dis = float.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "ATTACK_DIS"));
 
-            e_flyAround_count_max = int.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "FLYAROUND_COUNT_MAX"));
-            e_flyAround_count_min = int.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "FLYAROUND_COUNT_MIN"));
+            e_jump_velocity_x_max = float.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "JUMP_VELOCITY_X_MAX"));
+            e_jump_height_area = Enemy_BT_Core_CPN.read_diy_prm_to_vec2(cell, "JUMP_HEIGHT_AREA");
 
             e_before_attack_sec = float.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "BEFORE_ATTACK_SEC"));
             e_after_attack_sec = float.Parse(Enemy_BT_Core_CPN.read_diy_prm(cell, "AFTER_ATTACK_SEC"));
@@ -101,9 +85,9 @@ namespace World.Enemys.BT
 
             m_state = (EN_FSM)System.Enum.Parse(typeof(EN_FSM), (string)prms[0]);
             if (m_state == EN_FSM.Default)
-                m_state = EN_FSM.Chase;
+                m_state = EN_FSM.Idle;
 
-            cell.mover.move_type = EN_enemy_move_type.Fly1;
+            cell.mover.move_type = EN_enemy_move_type.Slide;
 
             i_shoot.init_data(cell);
 
@@ -117,26 +101,65 @@ namespace World.Enemys.BT
         }
 
 
-        #region Chase
-        public void start_Chase(Enemy cell)
+        #region Idle
+        public void start_Idle(Enemy cell)
         {
             SeekTarget_Helper.select_caravan(out cell.target);
 
-            m_flyAround_count_limit = Random.Range(e_flyAround_count_min, e_flyAround_count_max + 1);
-
-            i_flyAround.calc_flyAround_pos();
+            m_jump_cd = Mathf.RoundToInt(e_jump_cd * Config.PHYSICS_TICKS_PER_SECOND);
         }
 
 
-        public void do_Chase(Enemy cell)
+        public void do_Idle(Enemy cell)
         {
-            i_flyAround.flyAround_on_tick(cell, cell.target.Position);
+            var pos_delta_x = (cell.pos - cell.target.Position).x;
+            var is_in_attack_area = pos_delta_x <= e_atk_dis && pos_delta_x >= -e_atk_dis;
 
-            if (m_flyAround_count >= m_flyAround_count_limit)
+            if (is_in_attack_area)
             {
-                m_flyAround_count = 0;
-                m_is_refresh_follow_pos = true;
                 m_state = EN_FSM.Attack;
+                return;
+            }
+
+            if (m_jump_cd-- <= 0)
+            {
+                m_state = EN_FSM.Jump;
+            }
+        }
+        #endregion
+
+
+        #region Jump
+        public void start_Jump(Enemy cell)
+        {
+            seek_target();
+
+            #region 子函数 seek_target
+            void seek_target()
+            {
+                //规则：索最近玩家设备
+                SeekTarget_Helper.nearest_player_device(cell, out cell.target);
+                if (cell.target != null) return;
+
+                //规则：如果全部损坏，转火车体
+                SeekTarget_Helper.select_caravan(out cell.target);
+            }
+            #endregion
+
+            cell.position_expt = cell.target.Position;
+
+            i_jump.@do(cell);
+        }
+
+
+        public void do_Jump(Enemy cell)
+        {
+            cell.position_expt = cell.target.Position;
+
+            if (i_jump.is_land(cell))
+            {
+                m_state = EN_FSM.Idle;
+                return;
             }
         }
         #endregion
@@ -145,20 +168,6 @@ namespace World.Enemys.BT
         #region Attack
         public void start_Attack(Enemy cell)
         {
-            if (m_is_refresh_follow_pos)
-            {
-                m_flyFollow_pos = cell.pos - cell.target.Position;
-                m_is_refresh_follow_pos = false;
-            }
-
-            i_flyFollow.notify_on_tick(cell, cell.target.Position);
-
-            SeekTarget_Helper.nearest_player_device(cell, out cell.target);
-            if (cell.target == null)
-            {
-                SeekTarget_Helper.select_caravan(out cell.target);
-            }
-
             if (m_running_fire_count >= e_running_fire_count) return;
 
             i_attack_delay.@do(cell, shoot, () => { m_state = EN_FSM.AttackAfter; });
@@ -166,6 +175,8 @@ namespace World.Enemys.BT
             #region 子函数 shoot
             void shoot()
             {
+                SeekTarget_Helper.select_caravan(out var car);
+
                 i_shoot.do_shoot(cell, cell.target.Position);
                 m_running_fire_count++;
             }
@@ -175,14 +186,12 @@ namespace World.Enemys.BT
 
         public void do_Attack(Enemy cell)
         {
-            i_flyFollow.notify_on_tick(cell, cell.target.Position);
-
             if (m_running_fire_count < e_running_fire_count) return;
 
             m_running_fire_count = 0;
             Request_Helper.del_requests($"end_attack_{cell.GUID}");
 
-            m_state = EN_FSM.Chase;
+            m_state = EN_FSM.Idle;
         }
         #endregion
 
@@ -190,8 +199,6 @@ namespace World.Enemys.BT
         #region AttackAfter
         public void do_AttackAfter(Enemy cell)
         {
-            i_flyFollow.notify_on_tick(cell, cell.target.Position);
-
             m_state = EN_FSM.Attack;
         }
         #endregion
@@ -199,15 +206,8 @@ namespace World.Enemys.BT
 
         public override void notify_on_set_face_dir(Enemy cell)
         {
-            if (m_state == EN_FSM.Chase)
-            {
-                base.notify_on_set_face_dir(cell);
-                return;
-            }
-
             Enemy_BT_Face_CPN.set_face_dir_to_player_only_x(cell);
         }
     }
 }
-
 
