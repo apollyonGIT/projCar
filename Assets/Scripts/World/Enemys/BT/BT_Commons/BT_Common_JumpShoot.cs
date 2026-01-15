@@ -132,20 +132,6 @@ namespace World.Enemys.BT
         #region Jump
         public void start_Jump(Enemy cell)
         {
-            seek_target();
-
-            #region 子函数 seek_target
-            void seek_target()
-            {
-                //规则：索最近玩家设备
-                SeekTarget_Helper.nearest_player_device(cell, out cell.target);
-                if (cell.target != null) return;
-
-                //规则：如果全部损坏，转火车体
-                SeekTarget_Helper.select_caravan(out cell.target);
-            }
-            #endregion
-
             cell.position_expt = cell.target.Position;
 
             i_jump.@do(cell);
@@ -175,7 +161,19 @@ namespace World.Enemys.BT
             #region 子函数 shoot
             void shoot()
             {
-                SeekTarget_Helper.select_caravan(out var car);
+                seek_target();
+
+                #region 子函数 seek_target
+                void seek_target()
+                {
+                    //规则：索最近玩家设备
+                    SeekTarget_Helper.nearest_player_device(cell, out cell.target);
+                    if (cell.target != null) return;
+
+                    //规则：如果全部损坏，转火车体
+                    SeekTarget_Helper.select_caravan(out cell.target);
+                }
+                #endregion
 
                 i_shoot.do_shoot(cell, cell.target.Position);
                 m_running_fire_count++;
