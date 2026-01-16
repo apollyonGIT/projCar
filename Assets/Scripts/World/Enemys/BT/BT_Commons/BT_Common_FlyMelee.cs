@@ -35,9 +35,6 @@ namespace World.Enemys.BT
 
         int e_atk_cd;
         int m_atk_cd;
-
-        float e_before_attack_sec;
-        float e_after_attack_sec;
         #endregion
 
         #region FlyAround
@@ -62,6 +59,9 @@ namespace World.Enemys.BT
         #endregion
 
         #region Attack_Delay
+        float e_before_attack_sec;
+        float e_after_attack_sec;
+
         float IEnemy_BT_Attack_Delay<EN_FSM>.before_attack_sec => e_before_attack_sec;
         float IEnemy_BT_Attack_Delay<EN_FSM>.after_attack_sec => e_after_attack_sec;
 
